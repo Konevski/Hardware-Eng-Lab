@@ -1,6 +1,5 @@
 # Hardware-Eng-Lab
-## VHDL Clock
---
+## Project: VHDL Clock
 ### Members:
 - Aditya Kumar
 - Wiktor Kochanek
