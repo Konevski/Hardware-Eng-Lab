@@ -1,7 +1,7 @@
 # Hardware-Eng-Lab
 ## VHDL Clock
 --
-###Members:
+### Members:
 - Aditya Kumar
 - Wiktor Kochanek
 - Gordan Konevski
