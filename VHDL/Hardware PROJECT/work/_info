@@ -1,0 +1,733 @@
+m255
+K4
+z2
+!s11e vcom 2021.1 2021.02, Feb  3 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/GABRUUU/Desktop
+Ealarm
+Z0 w1655990836
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 64
+Z6 dC:/Users/GABRUUU/Desktop/Hardware PROJECT
+Z7 8C:\Users\GABRUUU\Desktop\Hardware PROJECT\Alarm.vhd
+Z8 FC:\Users\GABRUUU\Desktop\Hardware PROJECT\Alarm.vhd
+l0
+Z9 L13 1
+V<Zhi?mji]zNkYXme6fQk_3
+!s100 ZnJW?IcnT9WPIf0m:L7B<1
+Z10 OV;C;2021.1;73
+32
+Z11 !s110 1655993450
+!i10b 1
+Z12 !s108 1655993450.000000
+Z13 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\GABRUUU\Desktop\Hardware PROJECT\Alarm.vhd|
+Z14 !s107 C:\Users\GABRUUU\Desktop\Hardware PROJECT\Alarm.vhd|
+!i113 1
+Z15 o-work work -2002 -explicit
+Z16 tExplicit 1 CvgOpt 0
+Abehaviour
+R1
+R2
+R3
+R4
+R5
+DEx4 work 5 alarm 0 22 <Zhi?mji]zNkYXme6fQk_3
+!i122 64
+l50
+L48 19
+VV<ek2;4@WA>Qe7IUI]3RG3
+!s100 >ieTFEKQQAU8I:kDF?]532
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Ealarmtb
+Z17 w1655992853
+R3
+R2
+R1
+R4
+R5
+!i122 67
+R6
+Z18 8C:\Users\GABRUUU\Desktop\Hardware PROJECT\Alarm_tb.vhd
+Z19 FC:\Users\GABRUUU\Desktop\Hardware PROJECT\Alarm_tb.vhd
+l0
+Z20 L10 1
+Vi93QMa9RBlkzYalSOJ21P2
+!s100 7R8W3<_]g6cfzR=dTg2Mb1
+R10
+32
+R11
+!i10b 1
+R12
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\GABRUUU\Desktop\Hardware PROJECT\Alarm_tb.vhd|
+Z22 !s107 C:\Users\GABRUUU\Desktop\Hardware PROJECT\Alarm_tb.vhd|
+!i113 1
+R15
+R16
+Abehaviour
+R3
+R2
+R1
+R4
+R5
+DEx4 work 7 alarmtb 0 22 i93QMa9RBlkzYalSOJ21P2
+!i122 67
+l31
+L13 71
+V0mSc[CAROa3JXULl9E94U1
+!s100 j9mA@8aCCSGo7L7A@aY<a0
+R10
+32
+R11
+!i10b 1
+R12
+R21
+R22
+!i113 1
+R15
+R16
+Ealarmtestbench
+Z23 w1655935389
+R3
+R2
+R1
+R4
+R5
+!i122 15
+R6
+R18
+R19
+l0
+R9
+V3lJ=PPSbl=KRXVZ:A@B5c3
+!s100 4EMHOHQ2OP<4F?R?OD2iF0
+R10
+32
+Z24 !s110 1655967669
+!i10b 1
+Z25 !s108 1655967669.000000
+R21
+R22
+!i113 1
+R15
+R16
+Abehv
+R3
+R2
+R1
+R4
+R5
+DEx4 work 14 alarmtestbench 0 22 3lJ=PPSbl=KRXVZ:A@B5c3
+!i122 15
+l34
+L16 71
+VcL1GYY:C@IEn2_ZUK5aGk0
+!s100 zm]HFkkCCX[X4K91LXbOj0
+R10
+32
+R24
+!i10b 1
+R25
+R21
+R22
+!i113 1
+R15
+R16
+Eclock
+Z26 w1655989908
+R2
+R3
+R4
+R5
+!i122 63
+R6
+Z27 8C:\Users\GABRUUU\Desktop\Hardware PROJECT\Clock.vhd
+Z28 FC:\Users\GABRUUU\Desktop\Hardware PROJECT\Clock.vhd
+l0
+L14 1
+VAf>kYY7<e[nG=NQG<>=9_0
+!s100 CaiWBRHVMk>N;`kB;RiEd2
+R10
+32
+R11
+!i10b 1
+R12
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\GABRUUU\Desktop\Hardware PROJECT\Clock.vhd|
+Z30 !s107 C:\Users\GABRUUU\Desktop\Hardware PROJECT\Clock.vhd|
+!i113 1
+R15
+R16
+Abehaviour
+R2
+R3
+R4
+R5
+DEx4 work 5 clock 0 22 Af>kYY7<e[nG=NQG<>=9_0
+!i122 63
+l28
+L21 36
+V37GD_g7=JU>S[SZF6]7:C0
+!s100 QF^>3j90k7NPkYH@NZBRj3
+R10
+32
+R11
+!i10b 1
+R12
+R29
+R30
+!i113 1
+R15
+R16
+Eclockdisplay
+Z31 w1655935349
+R1
+R2
+R3
+R4
+R5
+!i122 48
+R6
+Z32 8C:\Users\GABRUUU\Desktop\Hardware PROJECT\Clock_Display.vhd
+Z33 FC:\Users\GABRUUU\Desktop\Hardware PROJECT\Clock_Display.vhd
+l0
+L25 1
+VU]PGeYH@Ad];;15GGZD4f0
+!s100 mSNRYUKMOgmMZReg44gJg2
+R10
+32
+Z34 !s110 1655992924
+!i10b 1
+Z35 !s108 1655992924.000000
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\GABRUUU\Desktop\Hardware PROJECT\Clock_Display.vhd|
+Z37 !s107 C:\Users\GABRUUU\Desktop\Hardware PROJECT\Clock_Display.vhd|
+!i113 1
+R15
+R16
+Astruct
+R1
+R2
+R3
+R4
+R5
+Z38 DEx4 work 12 clockdisplay 0 22 U]PGeYH@Ad];;15GGZD4f0
+!i122 48
+l51
+L43 14
+VLzH^S7bS^KB<^1JTWC4jC3
+!s100 PVd>K9V5HZC6b_EeP9JR;3
+R10
+32
+R34
+!i10b 1
+R35
+R36
+R37
+!i113 1
+R15
+R16
+Abehaviour
+R1
+R2
+R3
+R4
+R5
+R38
+!i122 48
+l39
+L37 5
+VIdA?4SLV?Q:T7495ehXY03
+!s100 UlZ;dFX@B@kh8aIY`ZV[Z1
+R10
+32
+R34
+!i10b 1
+R35
+R36
+R37
+!i113 1
+R15
+R16
+Eclocktb
+Z39 w1655992979
+R3
+R2
+R1
+R4
+R5
+!i122 68
+R6
+Z40 8C:\Users\GABRUUU\Desktop\Hardware PROJECT\clock_tb.vhd
+Z41 FC:\Users\GABRUUU\Desktop\Hardware PROJECT\clock_tb.vhd
+l0
+L9 1
+V0RDIQ6DB6KH[d<NHQPJk;0
+!s100 `5QmZf=R5PXi>97O1aNEF0
+R10
+32
+R11
+!i10b 1
+R12
+Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\GABRUUU\Desktop\Hardware PROJECT\clock_tb.vhd|
+Z43 !s107 C:\Users\GABRUUU\Desktop\Hardware PROJECT\clock_tb.vhd|
+!i113 1
+R15
+R16
+Abehaviour
+R3
+R2
+R1
+R4
+R5
+DEx4 work 7 clocktb 0 22 0RDIQ6DB6KH[d<NHQPJk;0
+!i122 68
+l23
+L12 45
+VlIAO02ZaPnnjeZ6O<G[Hd0
+!s100 Rcd07kQo@[[CX[F1W>mRY2
+R10
+32
+R11
+!i10b 1
+R12
+R42
+R43
+!i113 1
+R15
+R16
+Abehviour
+R3
+R2
+R1
+R4
+R5
+DEx4 work 7 clocktb 0 22 g2oiZ@ok2E<Ca=L>>T[fn3
+!i122 29
+l25
+Z44 L14 45
+Vk5`ea:eCa^T<1KN^aI?@_3
+!s100 8l6GYHXgC=a8[lT3`>I6^0
+R10
+32
+!s110 1655991874
+!i10b 1
+!s108 1655991874.000000
+R42
+R43
+!i113 1
+R15
+R16
+w1655991870
+Eclocktestbench
+Z45 w1655935313
+R3
+R2
+R1
+R4
+R5
+!i122 16
+R6
+R40
+R41
+l0
+L11 1
+VgaZcikajfXO`F5Go45l:81
+!s100 gFzIV?KaaggZ?7YUKhjkj3
+R10
+32
+R24
+!i10b 1
+R25
+R42
+R43
+!i113 1
+R15
+R16
+Abehv
+R3
+R2
+R1
+R4
+R5
+DEx4 work 14 clocktestbench 0 22 gaZcikajfXO`F5Go45l:81
+!i122 16
+l25
+R44
+VV6]aQ?0efgjME::h9BDjT2
+!s100 QdNR=_I?mkzaLa7DYETfL1
+R10
+32
+R24
+!i10b 1
+R25
+R42
+R43
+!i113 1
+R15
+R16
+Econtroller
+Z46 w1655989911
+R1
+R2
+R3
+R4
+R5
+!i122 65
+R6
+Z47 8C:\Users\GABRUUU\Desktop\Hardware PROJECT\Controller.vhd
+Z48 FC:\Users\GABRUUU\Desktop\Hardware PROJECT\Controller.vhd
+l0
+Z49 L12 1
+V8D<nRE71OR9Pgc_em4mBM0
+!s100 DUXnQ@:;AaZ`=n@[EUM:N1
+R10
+32
+R11
+!i10b 1
+R12
+Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\GABRUUU\Desktop\Hardware PROJECT\Controller.vhd|
+Z51 !s107 C:\Users\GABRUUU\Desktop\Hardware PROJECT\Controller.vhd|
+!i113 1
+R15
+R16
+Abehaviour
+R1
+R2
+R3
+R4
+R5
+DEx4 work 10 controller 0 22 8D<nRE71OR9Pgc_em4mBM0
+!i122 65
+l29
+L19 42
+VeUhjUl6M_IeeQ0H6LWhJ=3
+!s100 d5^DF2dO=hgjhUeH2jHQ00
+R10
+32
+R11
+!i10b 1
+R12
+R50
+R51
+!i113 1
+R15
+R16
+Econtrollertb
+Z52 w1655992920
+R3
+R2
+R1
+R4
+R5
+!i122 69
+R6
+Z53 8C:\Users\GABRUUU\Desktop\Hardware PROJECT\Controler_tb.vhd
+Z54 FC:\Users\GABRUUU\Desktop\Hardware PROJECT\Controler_tb.vhd
+l0
+L9 1
+V^OY;kL>Y>aRXTiz6;bUBH0
+!s100 0S3@MZS3_><VmhPP0Uj^]2
+R10
+32
+R11
+!i10b 1
+R12
+Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\GABRUUU\Desktop\Hardware PROJECT\Controler_tb.vhd|
+Z56 !s107 C:\Users\GABRUUU\Desktop\Hardware PROJECT\Controler_tb.vhd|
+!i113 1
+R15
+R16
+Abehaviour
+R3
+R2
+R1
+R4
+R5
+Z57 DEx4 work 12 controllertb 0 22 ^OY;kL>Y>aRXTiz6;bUBH0
+!i122 69
+l25
+Z58 L12 64
+V8eLB8;GkjK^^6:<nK;K[b2
+!s100 `3HgXoO927QiGd7d[=neX2
+R10
+32
+R11
+!i10b 1
+R12
+R55
+R56
+!i113 1
+R15
+R16
+Abehviour
+R3
+R2
+R1
+R4
+R5
+R57
+!i122 41
+l25
+R58
+VWTCK1@lM0E[XJ1YJRJ<@20
+!s100 R;52Xl=RRYW1=9P?:C]zJ2
+R10
+32
+!s110 1655992900
+!i10b 1
+!s108 1655992900.000000
+R55
+R56
+!i113 1
+R15
+R16
+w1655991991
+Econtrollertestbench
+Z59 w1655935279
+R3
+R2
+R1
+R4
+R5
+!i122 17
+R6
+R53
+R54
+l0
+L9 1
+V@`7z;g3T;OG<l<=KWCi^A0
+!s100 A2[;h]9zgl^_RPQOz<Hil3
+R10
+32
+R24
+!i10b 1
+R25
+R55
+R56
+!i113 1
+R15
+R16
+Abehv
+R3
+R2
+R1
+R4
+R5
+DEx4 work 19 controllertestbench 0 22 @`7z;g3T;OG<l<=KWCi^A0
+!i122 17
+l25
+R58
+Ve;WnzIMmVk7HaYoN^X18<2
+!s100 oPo42aD`CVV?d1fV5S4211
+R10
+32
+R24
+!i10b 1
+R25
+R55
+R56
+!i113 1
+R15
+R16
+Edigitalclock
+Z60 w1655991475
+R2
+R3
+R4
+R5
+!i122 71
+R6
+Z61 8C:\Users\GABRUUU\Desktop\Hardware PROJECT\Digital_Clock.vhd
+Z62 FC:\Users\GABRUUU\Desktop\Hardware PROJECT\Digital_Clock.vhd
+l0
+R20
+Vk^fHM;;foUHHd`XecfPzS0
+!s100 9HkMI1JKF60JV<7SVKbgS0
+R10
+32
+Z63 !s110 1655993451
+!i10b 1
+R12
+Z64 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\GABRUUU\Desktop\Hardware PROJECT\Digital_Clock.vhd|
+Z65 !s107 C:\Users\GABRUUU\Desktop\Hardware PROJECT\Digital_Clock.vhd|
+!i113 1
+R15
+R16
+Abehaviour
+R2
+R3
+R4
+R5
+Z66 DEx4 work 12 digitalclock 0 22 k^fHM;;foUHHd`XecfPzS0
+!i122 71
+l61
+Z67 L26 71
+Z68 V4U:k5g0hUDaPbQ8:fjkhX2
+Z69 !s100 8?[G0baM6?^O:_EfR1MJY3
+R10
+32
+R63
+!i10b 1
+R12
+R64
+R65
+!i113 1
+R15
+R16
+Enumberdisplay
+Z70 w1655990976
+R1
+R2
+R3
+R4
+R5
+!i122 66
+R6
+Z71 8C:\Users\GABRUUU\Desktop\Hardware PROJECT\Number_Display.vhd
+Z72 FC:\Users\GABRUUU\Desktop\Hardware PROJECT\Number_Display.vhd
+l0
+R49
+V2G;=I5<X_K2lj=M4HB2QB3
+!s100 kKRO>KDC`ZaCOZGlI4IeQ0
+R10
+32
+R11
+!i10b 1
+R12
+Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\GABRUUU\Desktop\Hardware PROJECT\Number_Display.vhd|
+Z74 !s107 C:\Users\GABRUUU\Desktop\Hardware PROJECT\Number_Display.vhd|
+!i113 1
+R15
+R16
+Abehaviour
+R1
+R2
+R3
+R4
+R5
+DEx4 work 13 numberdisplay 0 22 2G;=I5<X_K2lj=M4HB2QB3
+!i122 66
+l21
+L19 21
+Vki;]7oPgF2o>WSze2jZzn0
+!s100 i=_kDM8BRHNk^f=Ziaih=0
+R10
+32
+R11
+!i10b 1
+R12
+R73
+R74
+!i113 1
+R15
+R16
+Enumdisplaytb
+Z75 w1655992618
+R3
+R2
+R1
+R4
+R5
+!i122 70
+R6
+Z76 8C:\Users\GABRUUU\Desktop\Hardware PROJECT\Number_Display_tb.vhd
+Z77 FC:\Users\GABRUUU\Desktop\Hardware PROJECT\Number_Display_tb.vhd
+l0
+R20
+V<kzn3b5KkSOeORo^M[0^g3
+!s100 SbROa8V]J2P]Q17QSNAm<0
+R10
+32
+R11
+!i10b 1
+R12
+Z78 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\GABRUUU\Desktop\Hardware PROJECT\Number_Display_tb.vhd|
+Z79 !s107 C:\Users\GABRUUU\Desktop\Hardware PROJECT\Number_Display_tb.vhd|
+!i113 1
+R15
+R16
+Abehaviour
+R3
+R2
+R1
+R4
+R5
+DEx4 work 12 numdisplaytb 0 22 <kzn3b5KkSOeORo^M[0^g3
+!i122 70
+l25
+L13 105
+VYGjkg=@M3BSoVgfm1G]5X3
+!s100 YHl^j7SCg`[6hE<<AZ]ZB3
+R10
+32
+R11
+!i10b 1
+R12
+R78
+R79
+!i113 1
+R15
+R16
+Enumdisplaytestbench
+Z80 w1655992529
+R3
+R2
+R1
+R4
+R5
+!i122 31
+R6
+R76
+R77
+l0
+L30 1
+VM9Si_>>z<k`9zPP?H:SWD2
+!s100 L48I_gJ?PT^Lc5>f3DNX`2
+R10
+32
+Z81 !s110 1655992532
+!i10b 1
+Z82 !s108 1655992532.000000
+R78
+R79
+!i113 1
+R15
+R16
+Abehv
+R3
+R2
+R1
+R4
+R5
+DEx4 work 19 numdisplaytestbench 0 22 M9Si_>>z<k`9zPP?H:SWD2
+!i122 31
+l45
+L33 105
+VY[YmT95=Pf[2bngZo7a@72
+!s100 =19MgdFUj?Yfk_3Vg4K2L2
+R10
+32
+R81
+!i10b 1
+R82
+R78
+R79
+!i113 1
+R15
+R16

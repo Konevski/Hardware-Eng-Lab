@@ -1,0 +1,87 @@
+{C:/Users/GABRUUU/Desktop/Hardware PROJECT/Clock.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\GABRUUU\Desktop\Hardware PROJECT\Clock.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity Clock
+-- Compiling architecture Behaviour of Clock
+
+} {} {}} {C:/Users/GABRUUU/Desktop/Hardware PROJECT/Controller.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\GABRUUU\Desktop\Hardware PROJECT\Controller.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity Controller
+-- Compiling architecture Behaviour of Controller
+
+} {} {}} {C:/Users/GABRUUU/Desktop/Hardware PROJECT/Controler_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\GABRUUU\Desktop\Hardware PROJECT\Controler_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity controllertb
+-- Compiling architecture behaviour of controllertb
+
+} {} {}} {C:/Users/GABRUUU/Desktop/Hardware PROJECT/Digital_Clock.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\GABRUUU\Desktop\Hardware PROJECT\Digital_Clock.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity DigitalClock
+-- Compiling architecture Behaviour of DigitalClock
+
+} {} {}} {C:/Users/GABRUUU/Desktop/Hardware PROJECT/Alarm.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\GABRUUU\Desktop\Hardware PROJECT\Alarm.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity Alarm
+-- Compiling architecture Behaviour of Alarm
+
+} {} {}} {C:/Users/GABRUUU/Desktop/Hardware PROJECT/Alarm_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\GABRUUU\Desktop\Hardware PROJECT\Alarm_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity alarmtb
+-- Compiling architecture behaviour of alarmtb
+
+} {} {}} {C:/Users/GABRUUU/Desktop/Hardware PROJECT/Number_Display.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\GABRUUU\Desktop\Hardware PROJECT\Number_Display.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity NumberDisplay
+-- Compiling architecture Behaviour of NumberDisplay
+
+} {} {}} {C:/Users/GABRUUU/Desktop/Hardware PROJECT/Number_Display_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\GABRUUU\Desktop\Hardware PROJECT\Number_Display_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity numDisplaytb
+-- Compiling architecture behaviour of numDisplaytb
+
+} {} {}}
