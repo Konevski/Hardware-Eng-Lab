@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/fjosl/Desktop/Xilinx/Projects/AlarmClock/AlarmClock.xst" -ofn "C:/Users/fjosl/Desktop/Xilinx/Projects/AlarmClock/AlarmClock.syr" 
+xst -intstyle ise -ifn "C:/Users/fjosl/Desktop/Xilinx/Projects/AlarmClock/AlarmClock.xst" -ofn "C:/Users/fjosl/Desktop/Xilinx/Projects/AlarmClock/AlarmClock.syr" 

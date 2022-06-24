@@ -1,0 +1,9 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri Jun 24 01:13:37 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+NET "DigitalClock_clk_i_BUFGP/IBUFG" BEL
+        "DigitalClock_clk_i_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

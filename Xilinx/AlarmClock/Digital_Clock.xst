@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/fjosl/Desktop/Xilinx/Projects/AlarmClock/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/fjosl/Desktop/Xilinx/Projects/AlarmClock/xst"
+elaborate
+-ifn Digital_Clock.prj
+-ifmt mixed

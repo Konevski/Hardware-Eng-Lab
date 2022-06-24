@@ -1,0 +1,12 @@
+EN clock NULL C:/Users/fjosl/Desktop/Xilinx/Projects/AlarmClock/Clock.vhd sub00/vhpl00 1656017370
+AR alarm behavioral C:/Users/fjosl/Desktop/Xilinx/Projects/AlarmClock/Alarm.vhd sub00/vhpl05 1656017375
+EN alarm NULL C:/Users/fjosl/Desktop/Xilinx/Projects/AlarmClock/Alarm.vhd sub00/vhpl04 1656017374
+EN digital_clock NULL C:/Users/fjosl/Desktop/Xilinx/Projects/AlarmClock/AlarmClock.vhd sub00/vhpl10 1656017378
+EN numberdisplay NULL C:/Users/fjosl/Desktop/Xilinx/Projects/AlarmClock/NumberDisplay.vhd sub00/vhpl06 1656017376
+AR clock behavioral C:/Users/fjosl/Desktop/Xilinx/Projects/AlarmClock/Clock.vhd sub00/vhpl01 1656017371
+AR digital_clock behavioral C:/Users/fjosl/Desktop/Xilinx/Projects/AlarmClock/AlarmClock.vhd sub00/vhpl11 1656017379
+EN alarmclock NULL C:/Users/fjosl/Desktop/Xilinx/Projects/AlarmClock/AlarmClock.vhd sub00/vhpl08 1656013148
+AR alarmclock behavioral C:/Users/fjosl/Desktop/Xilinx/Projects/AlarmClock/AlarmClock.vhd sub00/vhpl09 1656013149
+AR numberdisplay behavioral C:/Users/fjosl/Desktop/Xilinx/Projects/AlarmClock/NumberDisplay.vhd sub00/vhpl07 1656017377
+EN controller NULL C:/Users/fjosl/Desktop/Xilinx/Projects/AlarmClock/Controller.vhd sub00/vhpl02 1656017372
+AR controller behavioral C:/Users/fjosl/Desktop/Xilinx/Projects/AlarmClock/Controller.vhd sub00/vhpl03 1656017373

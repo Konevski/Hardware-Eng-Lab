@@ -1,0 +1,5 @@
+vhdl work "C:\Users\fjosl\Desktop\Xilinx\Projects\AlarmClock\NumberDisplay.vhd"
+vhdl work "C:\Users\fjosl\Desktop\Xilinx\Projects\AlarmClock\Controller.vhd"
+vhdl work "C:\Users\fjosl\Desktop\Xilinx\Projects\AlarmClock\Clock.vhd"
+vhdl work "C:\Users\fjosl\Desktop\Xilinx\Projects\AlarmClock\Alarm.vhd"
+vhdl work "C:\Users\fjosl\Desktop\Xilinx\Projects\AlarmClock\AlarmClock.vhd"

@@ -1,0 +1,5 @@
+vhdl work "NumberDisplay.vhd"
+vhdl work "Controller.vhd"
+vhdl work "Clock.vhd"
+vhdl work "Alarm.vhd"
+vhdl work "AlarmClock.vhd"

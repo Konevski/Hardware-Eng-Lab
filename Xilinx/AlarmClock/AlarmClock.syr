@@ -1,0 +1,686 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> Reading design: AlarmClock.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "AlarmClock.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "AlarmClock"
+Output Format                      : NGC
+Target Device                      : xc3s1000-5-ft256
+
+---- Source Options
+Top Module Name                    : AlarmClock
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/fjosl/Desktop/Xilinx/Projects/AlarmClock/Clock.vhd" in Library work.
+Architecture behavioral of Entity clock is up to date.
+Compiling vhdl file "C:/Users/fjosl/Desktop/Xilinx/Projects/AlarmClock/Controller.vhd" in Library work.
+Architecture behavioral of Entity controller is up to date.
+Compiling vhdl file "C:/Users/fjosl/Desktop/Xilinx/Projects/AlarmClock/Alarm.vhd" in Library work.
+Architecture behavioral of Entity alarm is up to date.
+Compiling vhdl file "C:/Users/fjosl/Desktop/Xilinx/Projects/AlarmClock/NumberDisplay.vhd" in Library work.
+Architecture behavioral of Entity numberdisplay is up to date.
+Compiling vhdl file "C:/Users/fjosl/Desktop/Xilinx/Projects/AlarmClock/AlarmClock.vhd" in Library work.
+Architecture behavioral of Entity alarmclock is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <AlarmClock> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Clock> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Controller> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Alarm> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <NumberDisplay> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <AlarmClock> in library <work> (Architecture <behavioral>).
+Entity <AlarmClock> analyzed. Unit <AlarmClock> generated.
+
+Analyzing Entity <Clock> in library <work> (Architecture <behavioral>).
+Entity <Clock> analyzed. Unit <Clock> generated.
+
+Analyzing Entity <Controller> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "C:/Users/fjosl/Desktop/Xilinx/Projects/AlarmClock/Controller.vhd" line 53: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <hour2>
+INFO:Xst:2679 - Register <Controller_time_o<7>> in unit <Controller> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <Controller_time_o<15>> in unit <Controller> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <Controller_time_o<14>> in unit <Controller> has a constant value of 0 during circuit operation. The register is replaced by logic.
+Entity <Controller> analyzed. Unit <Controller> generated.
+
+Analyzing Entity <Alarm> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "C:/Users/fjosl/Desktop/Xilinx/Projects/AlarmClock/Alarm.vhd" line 69: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <Alarm_set_min1_i>, <Alarm_set_min2_i>, <Alarm_set_hour1_i>, <Alarm_set_hour2_i>
+Entity <Alarm> analyzed. Unit <Alarm> generated.
+
+Analyzing Entity <NumberDisplay> in library <work> (Architecture <behavioral>).
+Entity <NumberDisplay> analyzed. Unit <NumberDisplay> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Clock>.
+    Related source file is "C:/Users/fjosl/Desktop/Xilinx/Projects/AlarmClock/Clock.vhd".
+    Found 1-bit register for signal <Clock_clk_o>.
+    Found 1-bit register for signal <clk>.
+    Found 32-bit up counter for signal <count>.
+    Found 6-bit up counter for signal <sec>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred   2 D-type flip-flop(s).
+Unit <Clock> synthesized.
+
+
+Synthesizing Unit <Controller>.
+    Related source file is "C:/Users/fjosl/Desktop/Xilinx/Projects/AlarmClock/Controller.vhd".
+WARNING:Xst:737 - Found 4-bit latch for signal <hour1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 2-bit latch for signal <hour2>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 4-bit latch for signal <min1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 3-bit latch for signal <min2>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <Controller_time_o_0>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <Controller_time_o_1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <Controller_time_o_2>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <Controller_time_o_3>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <Controller_time_o_4>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <Controller_time_o_10>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <Controller_time_o_5>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <Controller_time_o_11>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <Controller_time_o_6>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <Controller_time_o_12>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <Controller_time_o_13>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <Controller_time_o_8>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <Controller_time_o_9>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 4-bit adder for signal <hour1$addsub0000> created at line 64.
+    Found 2-bit adder for signal <hour2$addsub0000> created at line 69.
+    Found 4-bit adder for signal <min1$addsub0000> created at line 57.
+    Found 3-bit adder for signal <min2$addsub0000> created at line 60.
+    Summary:
+	inferred   4 Adder/Subtractor(s).
+Unit <Controller> synthesized.
+
+
+Synthesizing Unit <Alarm>.
+    Related source file is "C:/Users/fjosl/Desktop/Xilinx/Projects/AlarmClock/Alarm.vhd".
+WARNING:Xst:647 - Input <Alarm_set_min1_i<31:4>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <Alarm_set_hour1_i<31:4>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <Alarm_set_min2_i<31:4>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <Alarm_set_hour2_i<31:4>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:737 - Found 16-bit latch for signal <bit_alarm>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 16-bit comparator equal for signal <Alarm_buzz_o$cmp_eq0000> created at line 74.
+    Summary:
+	inferred   1 Comparator(s).
+Unit <Alarm> synthesized.
+
+
+Synthesizing Unit <NumberDisplay>.
+    Related source file is "C:/Users/fjosl/Desktop/Xilinx/Projects/AlarmClock/NumberDisplay.vhd".
+    Found 16x7-bit ROM for signal <NumberDisplay_segments_o>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <NumberDisplay> synthesized.
+
+
+Synthesizing Unit <AlarmClock>.
+    Related source file is "C:/Users/fjosl/Desktop/Xilinx/Projects/AlarmClock/AlarmClock.vhd".
+Unit <AlarmClock> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 4
+ 16x7-bit ROM                                          : 4
+# Adders/Subtractors                                   : 4
+ 2-bit adder                                           : 1
+ 3-bit adder                                           : 1
+ 4-bit adder                                           : 2
+# Counters                                             : 2
+ 32-bit up counter                                     : 1
+ 6-bit up counter                                      : 1
+# Registers                                            : 2
+ 1-bit register                                        : 2
+# Latches                                              : 18
+ 1-bit latch                                           : 13
+ 16-bit latch                                          : 1
+ 2-bit latch                                           : 1
+ 3-bit latch                                           : 1
+ 4-bit latch                                           : 2
+# Comparators                                          : 1
+ 16-bit comparator equal                               : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1293 - FF/Latch <0> has a constant value of 0 in block <7>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <0> has a constant value of 0 in block <14>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <0> has a constant value of 0 in block <15>. This FF/Latch will be trimmed during the optimization process.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 4
+ 16x7-bit ROM                                          : 4
+# Adders/Subtractors                                   : 4
+ 2-bit adder                                           : 1
+ 3-bit adder                                           : 1
+ 4-bit adder                                           : 2
+# Counters                                             : 2
+ 32-bit up counter                                     : 1
+ 6-bit up counter                                      : 1
+# Registers                                            : 2
+ Flip-Flops                                            : 2
+# Latches                                              : 18
+ 1-bit latch                                           : 13
+ 16-bit latch                                          : 1
+ 2-bit latch                                           : 1
+ 3-bit latch                                           : 1
+ 4-bit latch                                           : 2
+# Comparators                                          : 1
+ 16-bit comparator equal                               : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:2261 - The FF/Latch <15> in Unit <LPM_LATCH_20> is equivalent to the following 2 FFs/Latches, which will be removed : <14> <7> 
+WARNING:Xst:1293 - FF/Latch <15> has a constant value of 0 in block <LPM_LATCH_20>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <AlarmClock> ...
+
+Optimizing unit <Clock> ...
+
+Optimizing unit <Controller> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block AlarmClock, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 40
+ Flip-Flops                                            : 40
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : AlarmClock.ngr
+Top Level Output File Name         : AlarmClock
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 45
+
+Cell Usage :
+# BELS                             : 193
+#      GND                         : 1
+#      INV                         : 6
+#      LUT1                        : 31
+#      LUT2                        : 8
+#      LUT2_L                      : 1
+#      LUT3                        : 18
+#      LUT3_D                      : 3
+#      LUT4                        : 43
+#      LUT4_D                      : 2
+#      MUXCY                       : 47
+#      VCC                         : 1
+#      XORCY                       : 32
+# FlipFlops/Latches                : 79
+#      FDE                         : 1
+#      FDR                         : 38
+#      FDS                         : 1
+#      LD                          : 21
+#      LDE                         : 18
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 44
+#      IBUF                        : 15
+#      OBUF                        : 29
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s1000ft256-5 
+
+ Number of Slices:                       58  out of   7680     0%  
+ Number of Slice Flip Flops:             66  out of  15360     0%  
+ Number of 4 input LUTs:                112  out of  15360     0%  
+ Number of IOs:                          45
+ Number of bonded IOBs:                  45  out of    173    26%  
+    IOB Flip Flops:                      13
+ Number of GCLKs:                         2  out of      8    25%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-------------------------------------------------------------------+--------------------------------------------+-------+
+Clock Signal                                                       | Clock buffer(FF name)                      | Load  |
+-------------------------------------------------------------------+--------------------------------------------+-------+
+DigitalClock_on_i                                                  | IBUF+BUFG                                  | 13    |
+DigitalClock_clk_i                                                 | BUFGP                                      | 33    |
+Clock_map/clk                                                      | NONE(Clock_map/sec_5)                      | 7     |
+Controller_map/hour1_or0000(Controller_map/hour1_or00001:O)        | NONE(*)(Controller_map/hour1_3)            | 17    |
+Controller_map/hour1_cmp_eq0000(Controller_map/hour1_cmp_eq00001:O)| NONE(*)(Controller_map/Controller_time_o_4)| 9     |
+-------------------------------------------------------------------+--------------------------------------------+-------+
+(*) These 2 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 5.631ns (Maximum Frequency: 177.590MHz)
+   Minimum input arrival time before clock: 4.115ns
+   Maximum output required time after clock: 10.073ns
+   Maximum combinational path delay: 7.824ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'DigitalClock_clk_i'
+  Clock period: 5.631ns (frequency: 177.590MHz)
+  Total number of paths / destination ports: 1585 / 66
+-------------------------------------------------------------------------
+Delay:               5.631ns (Levels of Logic = 9)
+  Source:            Clock_map/count_8 (FF)
+  Destination:       Clock_map/count_31 (FF)
+  Source Clock:      DigitalClock_clk_i rising
+  Destination Clock: DigitalClock_clk_i rising
+
+  Data Path: Clock_map/count_8 to Clock_map/count_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.626   1.040  Clock_map/count_8 (Clock_map/count_8)
+     LUT4:I0->O            1   0.479   0.000  Clock_map/count_cmp_eq0000_wg_lut<0> (Clock_map/count_cmp_eq0000_wg_lut<0>)
+     MUXCY:S->O            1   0.435   0.000  Clock_map/count_cmp_eq0000_wg_cy<0> (Clock_map/count_cmp_eq0000_wg_cy<0>)
+     MUXCY:CI->O           1   0.056   0.000  Clock_map/count_cmp_eq0000_wg_cy<1> (Clock_map/count_cmp_eq0000_wg_cy<1>)
+     MUXCY:CI->O           1   0.056   0.000  Clock_map/count_cmp_eq0000_wg_cy<2> (Clock_map/count_cmp_eq0000_wg_cy<2>)
+     MUXCY:CI->O           1   0.056   0.000  Clock_map/count_cmp_eq0000_wg_cy<3> (Clock_map/count_cmp_eq0000_wg_cy<3>)
+     MUXCY:CI->O           1   0.056   0.000  Clock_map/count_cmp_eq0000_wg_cy<4> (Clock_map/count_cmp_eq0000_wg_cy<4>)
+     MUXCY:CI->O           1   0.056   0.000  Clock_map/count_cmp_eq0000_wg_cy<5> (Clock_map/count_cmp_eq0000_wg_cy<5>)
+     MUXCY:CI->O           1   0.056   0.000  Clock_map/count_cmp_eq0000_wg_cy<6> (Clock_map/count_cmp_eq0000_wg_cy<6>)
+     MUXCY:CI->O          33   0.246   1.580  Clock_map/count_cmp_eq0000_wg_cy<7> (Clock_map/count_cmp_eq0000)
+     FDS:S                     0.892          Clock_map/count_0
+    ----------------------------------------
+    Total                      5.631ns (3.011ns logic, 2.620ns route)
+                                       (53.5% logic, 46.5% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Clock_map/clk'
+  Clock period: 4.927ns (frequency: 202.978MHz)
+  Total number of paths / destination ports: 63 / 13
+-------------------------------------------------------------------------
+Delay:               4.927ns (Levels of Logic = 2)
+  Source:            Clock_map/sec_4 (FF)
+  Destination:       Clock_map/Clock_clk_o (FF)
+  Source Clock:      Clock_map/clk rising
+  Destination Clock: Clock_map/clk rising
+
+  Data Path: Clock_map/sec_4 to Clock_map/Clock_clk_o
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              3   0.626   1.066  Clock_map/sec_4 (Clock_map/sec_4)
+     LUT3_D:I0->O          1   0.479   0.704  Clock_map/sec_cmp_eq0000_SW0 (N33)
+     LUT4:I3->O            1   0.479   0.681  Clock_map/Clock_clk_o_not0001 (Clock_map/Clock_clk_o_not0001)
+     FDR:R                     0.892          Clock_map/Clock_clk_o
+    ----------------------------------------
+    Total                      4.927ns (2.476ns logic, 2.451ns route)
+                                       (50.3% logic, 49.7% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Controller_map/hour1_or0000'
+  Clock period: 4.774ns (frequency: 209.472MHz)
+  Total number of paths / destination ports: 126 / 26
+-------------------------------------------------------------------------
+Delay:               4.774ns (Levels of Logic = 3)
+  Source:            Controller_map/hour1_0 (LATCH)
+  Destination:       Controller_map/hour2_1 (LATCH)
+  Source Clock:      Controller_map/hour1_or0000 falling
+  Destination Clock: Controller_map/hour1_or0000 falling
+
+  Data Path: Controller_map/hour1_0 to Controller_map/hour2_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDE:G->Q              7   0.551   1.076  Controller_map/hour1_0 (Controller_map/hour1_0)
+     LUT3:I1->O            1   0.479   0.704  Controller_map/hour1_and0000_SW0 (N37)
+     LUT4_D:I3->O          3   0.479   0.830  Controller_map/hour1_and0000 (Controller_map/hour1_and0000)
+     LUT4:I2->O            1   0.479   0.000  Controller_map/hour2_mux0004<0> (Controller_map/hour2_mux0004<0>)
+     LDE:D                     0.176          Controller_map/hour2_1
+    ----------------------------------------
+    Total                      4.774ns (2.164ns logic, 2.610ns route)
+                                       (45.3% logic, 54.7% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Controller_map/hour1_cmp_eq0000'
+  Clock period: 2.331ns (frequency: 428.927MHz)
+  Total number of paths / destination ports: 6 / 6
+-------------------------------------------------------------------------
+Delay:               2.331ns (Levels of Logic = 1)
+  Source:            Controller_map/Controller_time_o_10 (LATCH)
+  Destination:       Controller_map/Controller_time_o_10 (LATCH)
+  Source Clock:      Controller_map/hour1_cmp_eq0000 falling
+  Destination Clock: Controller_map/hour1_cmp_eq0000 falling
+
+  Data Path: Controller_map/Controller_time_o_10 to Controller_map/Controller_time_o_10
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDE:G->Q              9   0.551   1.125  Controller_map/Controller_time_o_10 (Controller_map/Controller_time_o_10)
+     LUT3:I1->O            1   0.479   0.000  Controller_map/Controller_time_o_10_mux00021 (Controller_map/Controller_time_o_10_mux0002)
+     LDE:D                     0.176          Controller_map/Controller_time_o_10
+    ----------------------------------------
+    Total                      2.331ns (1.206ns logic, 1.125ns route)
+                                       (51.7% logic, 48.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'DigitalClock_on_i'
+  Total number of paths / destination ports: 13 / 13
+-------------------------------------------------------------------------
+Offset:              1.572ns (Levels of Logic = 1)
+  Source:            DigitalClock_set_min1_i<0> (PAD)
+  Destination:       Alarm_map/bit_alarm_0 (LATCH)
+  Destination Clock: DigitalClock_on_i falling
+
+  Data Path: DigitalClock_set_min1_i<0> to Alarm_map/bit_alarm_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.715   0.681  DigitalClock_set_min1_i_0_IBUF (DigitalClock_set_min1_i_0_IBUF)
+     LD:D                      0.176          Alarm_map/bit_alarm_0
+    ----------------------------------------
+    Total                      1.572ns (0.891ns logic, 0.681ns route)
+                                       (56.7% logic, 43.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Controller_map/hour1_cmp_eq0000'
+  Total number of paths / destination ports: 9 / 9
+-------------------------------------------------------------------------
+Offset:              4.115ns (Levels of Logic = 2)
+  Source:            DigitalClock_set_i (PAD)
+  Destination:       Controller_map/Controller_time_o_4 (LATCH)
+  Destination Clock: Controller_map/hour1_cmp_eq0000 falling
+
+  Data Path: DigitalClock_set_i to Controller_map/Controller_time_o_4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.715   0.851  DigitalClock_set_i_IBUF (DigitalClock_set_i_IBUF)
+     LUT2:I1->O           26   0.479   1.546  Controller_map/hour1_or00001 (Controller_map/hour1_or0000)
+     LDE:GE                    0.524          Controller_map/Controller_time_o_9
+    ----------------------------------------
+    Total                      4.115ns (1.718ns logic, 2.397ns route)
+                                       (41.8% logic, 58.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'DigitalClock_on_i'
+  Total number of paths / destination ports: 13 / 1
+-------------------------------------------------------------------------
+Offset:              9.958ns (Levels of Logic = 11)
+  Source:            Alarm_map/bit_alarm_0 (LATCH)
+  Destination:       DigitalClock_buzz_o (PAD)
+  Source Clock:      DigitalClock_on_i falling
+
+  Data Path: Alarm_map/bit_alarm_0 to DigitalClock_buzz_o
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   0.551   0.976  Alarm_map/bit_alarm_0 (Alarm_map/bit_alarm_0)
+     LUT4:I0->O            1   0.479   0.000  Alarm_map/Mcompar_Alarm_buzz_o_cmp_eq0000_lut<0> (Alarm_map/Mcompar_Alarm_buzz_o_cmp_eq0000_lut<0>)
+     MUXCY:S->O            1   0.435   0.000  Alarm_map/Mcompar_Alarm_buzz_o_cmp_eq0000_cy<0> (Alarm_map/Mcompar_Alarm_buzz_o_cmp_eq0000_cy<0>)
+     MUXCY:CI->O           1   0.056   0.000  Alarm_map/Mcompar_Alarm_buzz_o_cmp_eq0000_cy<1> (Alarm_map/Mcompar_Alarm_buzz_o_cmp_eq0000_cy<1>)
+     MUXCY:CI->O           1   0.056   0.000  Alarm_map/Mcompar_Alarm_buzz_o_cmp_eq0000_cy<2> (Alarm_map/Mcompar_Alarm_buzz_o_cmp_eq0000_cy<2>)
+     MUXCY:CI->O           1   0.056   0.000  Alarm_map/Mcompar_Alarm_buzz_o_cmp_eq0000_cy<3> (Alarm_map/Mcompar_Alarm_buzz_o_cmp_eq0000_cy<3>)
+     MUXCY:CI->O           1   0.056   0.000  Alarm_map/Mcompar_Alarm_buzz_o_cmp_eq0000_cy<4> (Alarm_map/Mcompar_Alarm_buzz_o_cmp_eq0000_cy<4>)
+     MUXCY:CI->O           1   0.056   0.000  Alarm_map/Mcompar_Alarm_buzz_o_cmp_eq0000_cy<5> (Alarm_map/Mcompar_Alarm_buzz_o_cmp_eq0000_cy<5>)
+     MUXCY:CI->O           1   0.056   0.000  Alarm_map/Mcompar_Alarm_buzz_o_cmp_eq0000_cy<6> (Alarm_map/Mcompar_Alarm_buzz_o_cmp_eq0000_cy<6>)
+     MUXCY:CI->O           1   0.265   0.851  Alarm_map/Mcompar_Alarm_buzz_o_cmp_eq0000_cy<7> (Alarm_map/Alarm_buzz_o_cmp_eq0000)
+     LUT2:I1->O            1   0.479   0.681  Alarm_map/Alarm_buzz_o1 (DigitalClock_buzz_o_OBUF)
+     OBUF:I->O                 4.909          DigitalClock_buzz_o_OBUF (DigitalClock_buzz_o)
+    ----------------------------------------
+    Total                      9.958ns (7.450ns logic, 2.508ns route)
+                                       (74.8% logic, 25.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Controller_map/hour1_or0000'
+  Total number of paths / destination ports: 32 / 8
+-------------------------------------------------------------------------
+Offset:              10.073ns (Levels of Logic = 11)
+  Source:            Controller_map/Controller_time_o_0 (LATCH)
+  Destination:       DigitalClock_buzz_o (PAD)
+  Source Clock:      Controller_map/hour1_or0000 falling
+
+  Data Path: Controller_map/Controller_time_o_0 to DigitalClock_buzz_o
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               8   0.551   1.091  Controller_map/Controller_time_o_0 (Controller_map/Controller_time_o_0)
+     LUT4:I1->O            1   0.479   0.000  Alarm_map/Mcompar_Alarm_buzz_o_cmp_eq0000_lut<0> (Alarm_map/Mcompar_Alarm_buzz_o_cmp_eq0000_lut<0>)
+     MUXCY:S->O            1   0.435   0.000  Alarm_map/Mcompar_Alarm_buzz_o_cmp_eq0000_cy<0> (Alarm_map/Mcompar_Alarm_buzz_o_cmp_eq0000_cy<0>)
+     MUXCY:CI->O           1   0.056   0.000  Alarm_map/Mcompar_Alarm_buzz_o_cmp_eq0000_cy<1> (Alarm_map/Mcompar_Alarm_buzz_o_cmp_eq0000_cy<1>)
+     MUXCY:CI->O           1   0.056   0.000  Alarm_map/Mcompar_Alarm_buzz_o_cmp_eq0000_cy<2> (Alarm_map/Mcompar_Alarm_buzz_o_cmp_eq0000_cy<2>)
+     MUXCY:CI->O           1   0.056   0.000  Alarm_map/Mcompar_Alarm_buzz_o_cmp_eq0000_cy<3> (Alarm_map/Mcompar_Alarm_buzz_o_cmp_eq0000_cy<3>)
+     MUXCY:CI->O           1   0.056   0.000  Alarm_map/Mcompar_Alarm_buzz_o_cmp_eq0000_cy<4> (Alarm_map/Mcompar_Alarm_buzz_o_cmp_eq0000_cy<4>)
+     MUXCY:CI->O           1   0.056   0.000  Alarm_map/Mcompar_Alarm_buzz_o_cmp_eq0000_cy<5> (Alarm_map/Mcompar_Alarm_buzz_o_cmp_eq0000_cy<5>)
+     MUXCY:CI->O           1   0.056   0.000  Alarm_map/Mcompar_Alarm_buzz_o_cmp_eq0000_cy<6> (Alarm_map/Mcompar_Alarm_buzz_o_cmp_eq0000_cy<6>)
+     MUXCY:CI->O           1   0.265   0.851  Alarm_map/Mcompar_Alarm_buzz_o_cmp_eq0000_cy<7> (Alarm_map/Alarm_buzz_o_cmp_eq0000)
+     LUT2:I1->O            1   0.479   0.681  Alarm_map/Alarm_buzz_o1 (DigitalClock_buzz_o_OBUF)
+     OBUF:I->O                 4.909          DigitalClock_buzz_o_OBUF (DigitalClock_buzz_o)
+    ----------------------------------------
+    Total                     10.073ns (7.451ns logic, 2.622ns route)
+                                       (74.0% logic, 26.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Controller_map/hour1_cmp_eq0000'
+  Total number of paths / destination ports: 68 / 21
+-------------------------------------------------------------------------
+Offset:              9.962ns (Levels of Logic = 9)
+  Source:            Controller_map/Controller_time_o_4 (LATCH)
+  Destination:       DigitalClock_buzz_o (PAD)
+  Source Clock:      Controller_map/hour1_cmp_eq0000 falling
+
+  Data Path: Controller_map/Controller_time_o_4 to DigitalClock_buzz_o
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDE:G->Q              8   0.551   1.091  Controller_map/Controller_time_o_4 (Controller_map/Controller_time_o_4)
+     LUT4:I1->O            1   0.479   0.000  Alarm_map/Mcompar_Alarm_buzz_o_cmp_eq0000_lut<2> (Alarm_map/Mcompar_Alarm_buzz_o_cmp_eq0000_lut<2>)
+     MUXCY:S->O            1   0.435   0.000  Alarm_map/Mcompar_Alarm_buzz_o_cmp_eq0000_cy<2> (Alarm_map/Mcompar_Alarm_buzz_o_cmp_eq0000_cy<2>)
+     MUXCY:CI->O           1   0.056   0.000  Alarm_map/Mcompar_Alarm_buzz_o_cmp_eq0000_cy<3> (Alarm_map/Mcompar_Alarm_buzz_o_cmp_eq0000_cy<3>)
+     MUXCY:CI->O           1   0.056   0.000  Alarm_map/Mcompar_Alarm_buzz_o_cmp_eq0000_cy<4> (Alarm_map/Mcompar_Alarm_buzz_o_cmp_eq0000_cy<4>)
+     MUXCY:CI->O           1   0.056   0.000  Alarm_map/Mcompar_Alarm_buzz_o_cmp_eq0000_cy<5> (Alarm_map/Mcompar_Alarm_buzz_o_cmp_eq0000_cy<5>)
+     MUXCY:CI->O           1   0.056   0.000  Alarm_map/Mcompar_Alarm_buzz_o_cmp_eq0000_cy<6> (Alarm_map/Mcompar_Alarm_buzz_o_cmp_eq0000_cy<6>)
+     MUXCY:CI->O           1   0.265   0.851  Alarm_map/Mcompar_Alarm_buzz_o_cmp_eq0000_cy<7> (Alarm_map/Alarm_buzz_o_cmp_eq0000)
+     LUT2:I1->O            1   0.479   0.681  Alarm_map/Alarm_buzz_o1 (DigitalClock_buzz_o_OBUF)
+     OBUF:I->O                 4.909          DigitalClock_buzz_o_OBUF (DigitalClock_buzz_o)
+    ----------------------------------------
+    Total                      9.962ns (7.340ns logic, 2.622ns route)
+                                       (73.7% logic, 26.3% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               7.824ns (Levels of Logic = 3)
+  Source:            DigitalClock_on_i (PAD)
+  Destination:       DigitalClock_buzz_o (PAD)
+
+  Data Path: DigitalClock_on_i to DigitalClock_buzz_o
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   0.715   1.040  DigitalClock_on_i_IBUF (DigitalClock_on_i_IBUF1)
+     LUT2:I0->O            1   0.479   0.681  Alarm_map/Alarm_buzz_o1 (DigitalClock_buzz_o_OBUF)
+     OBUF:I->O                 4.909          DigitalClock_buzz_o_OBUF (DigitalClock_buzz_o)
+    ----------------------------------------
+    Total                      7.824ns (6.103ns logic, 1.721ns route)
+                                       (78.0% logic, 22.0% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 2.62 secs
+ 
+--> 
+
+Total memory usage is 4508576 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   28 (   0 filtered)
+Number of infos    :    5 (   0 filtered)
+

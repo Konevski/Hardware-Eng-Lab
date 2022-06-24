@@ -1,0 +1,79 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Map Application Log File for Design 'Digital_Clock'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off
+-c 100 -o Digital_Clock_map.ncd Digital_Clock.ngd Digital_Clock.pcf 
+Target Device  : xc3s1000
+Target Package : ft256
+Target Speed   : -5
+Mapper Version : spartan3 -- $Revision: 1.55 $
+Mapped Date    : Fri Jun 24 01:13:36 2022
+
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+Updating timing models...
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   Controller_map/hour1_cmp_eq0000 is sourced by a combinatorial pin. This is
+   not good design practice. Use the CE pin to control the loading of data into
+   the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net Controller_map/hour1_or0000
+   is sourced by a combinatorial pin. This is not good design practice. Use the
+   CE pin to control the loading of data into the flip-flop.
+
+Design Summary
+--------------
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    2
+Logic Utilization:
+  Total Number Slice Registers:          66 out of  15,360    1%
+    Number used as Flip Flops:           40
+    Number used as Latches:              26
+  Number of 4 input LUTs:                76 out of  15,360    1%
+Logic Distribution:
+  Number of occupied Slices:             63 out of   7,680    1%
+    Number of Slices containing only related logic:      63 out of      63 100%
+    Number of Slices containing unrelated logic:          0 out of      63   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:         107 out of  15,360    1%
+    Number used as logic:                76
+    Number used as a route-thru:         31
+
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+  Number of bonded IOBs:                 45 out of     173   26%
+    IOB Latches:                         13
+  Number of BUFGMUXs:                     2 out of       8   25%
+
+Average Fanout of Non-Clock Nets:                2.83
+
+Peak Memory Usage:  4384 MB
+Total REAL time to MAP completion:  0 secs 
+Total CPU time to MAP completion:   0 secs 
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "Digital_Clock_map.mrp" for details.

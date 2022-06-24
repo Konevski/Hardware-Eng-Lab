@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/fjosl/Desktop/Xilinx/Projects/AlarmClock/Digital_Clock.xst" -ofn "C:/Users/fjosl/Desktop/Xilinx/Projects/AlarmClock/Digital_Clock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1000-ft256-5 Digital_Clock.ngc Digital_Clock.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o Digital_Clock_map.ncd Digital_Clock.ngd Digital_Clock.pcf 
+par -w -intstyle ise -ol high -t 1 Digital_Clock_map.ncd Digital_Clock.ncd Digital_Clock.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Digital_Clock.twx Digital_Clock.ncd -o Digital_Clock.twr Digital_Clock.pcf 
