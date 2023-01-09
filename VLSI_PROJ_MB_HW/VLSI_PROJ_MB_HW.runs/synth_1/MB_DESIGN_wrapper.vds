@@ -1,0 +1,480 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Mon Jan  9 16:02:42 2023
+# Process ID: 24168
+# Current directory: C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.runs/synth_1
+# Command line: vivado.exe -log MB_DESIGN_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MB_DESIGN_wrapper.tcl
+# Log file: C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.runs/synth_1/MB_DESIGN_wrapper.vds
+# Journal file: C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.runs/synth_1\vivado.jou
+# Running On: DESKTOP-M25C6O1, OS: Windows, CPU Frequency: 2370 MHz, CPU Physical cores: 6, Host memory: 7932 MB
+#-----------------------------------------------------------
+source MB_DESIGN_wrapper.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 430.852 ; gain = 107.895
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
+Command: synth_design -top MB_DESIGN_wrapper -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 22916
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1288.684 ; gain = 407.441
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'MB_DESIGN_wrapper' [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/hdl/MB_DESIGN_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'MB_DESIGN' [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/synth/MB_DESIGN.v:12]
+INFO: [Synth 8-6157] synthesizing module 'MB_DESIGN_axi_gpio_0_1' [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.runs/synth_1/.Xil/Vivado-24168-DESKTOP-M25C6O1/realtime/MB_DESIGN_axi_gpio_0_1_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'MB_DESIGN_axi_gpio_0_1' (0#1) [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.runs/synth_1/.Xil/Vivado-24168-DESKTOP-M25C6O1/realtime/MB_DESIGN_axi_gpio_0_1_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'MB_DESIGN_axi_iic_0_1' [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.runs/synth_1/.Xil/Vivado-24168-DESKTOP-M25C6O1/realtime/MB_DESIGN_axi_iic_0_1_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'MB_DESIGN_axi_iic_0_1' (0#1) [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.runs/synth_1/.Xil/Vivado-24168-DESKTOP-M25C6O1/realtime/MB_DESIGN_axi_iic_0_1_stub.v:5]
+WARNING: [Synth 8-7071] port 'iic2intc_irpt' of module 'MB_DESIGN_axi_iic_0_1' is unconnected for instance 'axi_iic_0' [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/synth/MB_DESIGN.v:207]
+WARNING: [Synth 8-7071] port 'gpo' of module 'MB_DESIGN_axi_iic_0_1' is unconnected for instance 'axi_iic_0' [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/synth/MB_DESIGN.v:207]
+WARNING: [Synth 8-7023] instance 'axi_iic_0' of module 'MB_DESIGN_axi_iic_0_1' has 27 connections declared, but only 25 given [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/synth/MB_DESIGN.v:207]
+INFO: [Synth 8-6157] synthesizing module 'MB_DESIGN_axi_uartlite_0_0' [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.runs/synth_1/.Xil/Vivado-24168-DESKTOP-M25C6O1/realtime/MB_DESIGN_axi_uartlite_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'MB_DESIGN_axi_uartlite_0_0' (0#1) [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.runs/synth_1/.Xil/Vivado-24168-DESKTOP-M25C6O1/realtime/MB_DESIGN_axi_uartlite_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'MB_DESIGN_clk_wiz_1_1' [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.runs/synth_1/.Xil/Vivado-24168-DESKTOP-M25C6O1/realtime/MB_DESIGN_clk_wiz_1_1_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'MB_DESIGN_clk_wiz_1_1' (0#1) [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.runs/synth_1/.Xil/Vivado-24168-DESKTOP-M25C6O1/realtime/MB_DESIGN_clk_wiz_1_1_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'MB_DESIGN_mdm_1_1' [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.runs/synth_1/.Xil/Vivado-24168-DESKTOP-M25C6O1/realtime/MB_DESIGN_mdm_1_1_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'MB_DESIGN_mdm_1_1' (0#1) [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.runs/synth_1/.Xil/Vivado-24168-DESKTOP-M25C6O1/realtime/MB_DESIGN_mdm_1_1_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'MB_DESIGN_microblaze_0_1' [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.runs/synth_1/.Xil/Vivado-24168-DESKTOP-M25C6O1/realtime/MB_DESIGN_microblaze_0_1_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'MB_DESIGN_microblaze_0_1' (0#1) [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.runs/synth_1/.Xil/Vivado-24168-DESKTOP-M25C6O1/realtime/MB_DESIGN_microblaze_0_1_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'MB_DESIGN_microblaze_0_axi_intc_0' [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.runs/synth_1/.Xil/Vivado-24168-DESKTOP-M25C6O1/realtime/MB_DESIGN_microblaze_0_axi_intc_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'MB_DESIGN_microblaze_0_axi_intc_0' (0#1) [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.runs/synth_1/.Xil/Vivado-24168-DESKTOP-M25C6O1/realtime/MB_DESIGN_microblaze_0_axi_intc_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'MB_DESIGN_microblaze_0_axi_periph_0' [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/synth/MB_DESIGN.v:489]
+INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_1657C3N' [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/synth/MB_DESIGN.v:1195]
+INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_1657C3N' (0#1) [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/synth/MB_DESIGN.v:1195]
+INFO: [Synth 8-6157] synthesizing module 'm01_couplers_imp_HRJJ2Z' [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/synth/MB_DESIGN.v:1327]
+INFO: [Synth 8-6155] done synthesizing module 'm01_couplers_imp_HRJJ2Z' (0#1) [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/synth/MB_DESIGN.v:1327]
+INFO: [Synth 8-6157] synthesizing module 'm02_couplers_imp_1R2KK4Y' [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/synth/MB_DESIGN.v:1459]
+INFO: [Synth 8-6155] done synthesizing module 'm02_couplers_imp_1R2KK4Y' (0#1) [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/synth/MB_DESIGN.v:1459]
+INFO: [Synth 8-6157] synthesizing module 'm03_couplers_imp_EMDZ1M' [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/synth/MB_DESIGN.v:1591]
+INFO: [Synth 8-6155] done synthesizing module 'm03_couplers_imp_EMDZ1M' (0#1) [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/synth/MB_DESIGN.v:1591]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_4DX5R3' [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/synth/MB_DESIGN.v:1957]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_4DX5R3' (0#1) [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/synth/MB_DESIGN.v:1957]
+INFO: [Synth 8-6157] synthesizing module 'MB_DESIGN_xbar_0' [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.runs/synth_1/.Xil/Vivado-24168-DESKTOP-M25C6O1/realtime/MB_DESIGN_xbar_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'MB_DESIGN_xbar_0' (0#1) [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.runs/synth_1/.Xil/Vivado-24168-DESKTOP-M25C6O1/realtime/MB_DESIGN_xbar_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'm_axi_awprot' of module 'MB_DESIGN_xbar_0' is unconnected for instance 'xbar' [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/synth/MB_DESIGN.v:1154]
+WARNING: [Synth 8-7071] port 'm_axi_arprot' of module 'MB_DESIGN_xbar_0' is unconnected for instance 'xbar' [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/synth/MB_DESIGN.v:1154]
+WARNING: [Synth 8-7023] instance 'xbar' of module 'MB_DESIGN_xbar_0' has 40 connections declared, but only 38 given [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/synth/MB_DESIGN.v:1154]
+INFO: [Synth 8-6155] done synthesizing module 'MB_DESIGN_microblaze_0_axi_periph_0' (0#1) [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/synth/MB_DESIGN.v:489]
+INFO: [Synth 8-6157] synthesizing module 'microblaze_0_local_memory_imp_1RYJMEJ' [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/synth/MB_DESIGN.v:1723]
+INFO: [Synth 8-6157] synthesizing module 'MB_DESIGN_dlmb_bram_if_cntlr_1' [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.runs/synth_1/.Xil/Vivado-24168-DESKTOP-M25C6O1/realtime/MB_DESIGN_dlmb_bram_if_cntlr_1_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'MB_DESIGN_dlmb_bram_if_cntlr_1' (0#1) [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.runs/synth_1/.Xil/Vivado-24168-DESKTOP-M25C6O1/realtime/MB_DESIGN_dlmb_bram_if_cntlr_1_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'MB_DESIGN_dlmb_v10_1' [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.runs/synth_1/.Xil/Vivado-24168-DESKTOP-M25C6O1/realtime/MB_DESIGN_dlmb_v10_1_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'MB_DESIGN_dlmb_v10_1' (0#1) [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.runs/synth_1/.Xil/Vivado-24168-DESKTOP-M25C6O1/realtime/MB_DESIGN_dlmb_v10_1_stub.v:5]
+WARNING: [Synth 8-7071] port 'LMB_Rst' of module 'MB_DESIGN_dlmb_v10_1' is unconnected for instance 'dlmb_v10' [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/synth/MB_DESIGN.v:1869]
+WARNING: [Synth 8-7023] instance 'dlmb_v10' of module 'MB_DESIGN_dlmb_v10_1' has 25 connections declared, but only 24 given [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/synth/MB_DESIGN.v:1869]
+INFO: [Synth 8-6157] synthesizing module 'MB_DESIGN_ilmb_bram_if_cntlr_1' [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.runs/synth_1/.Xil/Vivado-24168-DESKTOP-M25C6O1/realtime/MB_DESIGN_ilmb_bram_if_cntlr_1_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'MB_DESIGN_ilmb_bram_if_cntlr_1' (0#1) [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.runs/synth_1/.Xil/Vivado-24168-DESKTOP-M25C6O1/realtime/MB_DESIGN_ilmb_bram_if_cntlr_1_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'MB_DESIGN_ilmb_v10_1' [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.runs/synth_1/.Xil/Vivado-24168-DESKTOP-M25C6O1/realtime/MB_DESIGN_ilmb_v10_1_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'MB_DESIGN_ilmb_v10_1' (0#1) [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.runs/synth_1/.Xil/Vivado-24168-DESKTOP-M25C6O1/realtime/MB_DESIGN_ilmb_v10_1_stub.v:5]
+WARNING: [Synth 8-7071] port 'LMB_Rst' of module 'MB_DESIGN_ilmb_v10_1' is unconnected for instance 'ilmb_v10' [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/synth/MB_DESIGN.v:1915]
+WARNING: [Synth 8-7023] instance 'ilmb_v10' of module 'MB_DESIGN_ilmb_v10_1' has 25 connections declared, but only 24 given [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/synth/MB_DESIGN.v:1915]
+INFO: [Synth 8-6157] synthesizing module 'MB_DESIGN_lmb_bram_1' [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.runs/synth_1/.Xil/Vivado-24168-DESKTOP-M25C6O1/realtime/MB_DESIGN_lmb_bram_1_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'MB_DESIGN_lmb_bram_1' (0#1) [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.runs/synth_1/.Xil/Vivado-24168-DESKTOP-M25C6O1/realtime/MB_DESIGN_lmb_bram_1_stub.v:5]
+WARNING: [Synth 8-7071] port 'rsta_busy' of module 'MB_DESIGN_lmb_bram_1' is unconnected for instance 'lmb_bram' [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/synth/MB_DESIGN.v:1940]
+WARNING: [Synth 8-7071] port 'rstb_busy' of module 'MB_DESIGN_lmb_bram_1' is unconnected for instance 'lmb_bram' [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/synth/MB_DESIGN.v:1940]
+WARNING: [Synth 8-7023] instance 'lmb_bram' of module 'MB_DESIGN_lmb_bram_1' has 16 connections declared, but only 14 given [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/synth/MB_DESIGN.v:1940]
+INFO: [Synth 8-6155] done synthesizing module 'microblaze_0_local_memory_imp_1RYJMEJ' (0#1) [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/synth/MB_DESIGN.v:1723]
+INFO: [Synth 8-6157] synthesizing module 'MB_DESIGN_microblaze_0_xlconcat_0' [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/ip/MB_DESIGN_microblaze_0_xlconcat_0/synth/MB_DESIGN_microblaze_0_xlconcat_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_4_xlconcat' [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/ipshared/4b67/hdl/xlconcat_v2_1_vl_rfs.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'xlconcat_v2_1_4_xlconcat' (0#1) [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/ipshared/4b67/hdl/xlconcat_v2_1_vl_rfs.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'MB_DESIGN_microblaze_0_xlconcat_0' (0#1) [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/ip/MB_DESIGN_microblaze_0_xlconcat_0/synth/MB_DESIGN_microblaze_0_xlconcat_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'MB_DESIGN_rst_clk_wiz_1_100M_1' [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.runs/synth_1/.Xil/Vivado-24168-DESKTOP-M25C6O1/realtime/MB_DESIGN_rst_clk_wiz_1_100M_1_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'MB_DESIGN_rst_clk_wiz_1_100M_1' (0#1) [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.runs/synth_1/.Xil/Vivado-24168-DESKTOP-M25C6O1/realtime/MB_DESIGN_rst_clk_wiz_1_100M_1_stub.v:5]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'MB_DESIGN_rst_clk_wiz_1_100M_1' is unconnected for instance 'rst_clk_wiz_1_100M' [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/synth/MB_DESIGN.v:478]
+WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'MB_DESIGN_rst_clk_wiz_1_100M_1' is unconnected for instance 'rst_clk_wiz_1_100M' [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/synth/MB_DESIGN.v:478]
+WARNING: [Synth 8-7023] instance 'rst_clk_wiz_1_100M' of module 'MB_DESIGN_rst_clk_wiz_1_100M_1' has 10 connections declared, but only 8 given [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/synth/MB_DESIGN.v:478]
+INFO: [Synth 8-6155] done synthesizing module 'MB_DESIGN' (0#1) [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/synth/MB_DESIGN.v:12]
+INFO: [Synth 8-6157] synthesizing module 'IOBUF' [C:/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:75902]
+INFO: [Synth 8-6155] done synthesizing module 'IOBUF' (0#1) [C:/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:75902]
+INFO: [Synth 8-6155] done synthesizing module 'MB_DESIGN_wrapper' (0#1) [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/hdl/MB_DESIGN_wrapper.v:12]
+WARNING: [Synth 8-7129] Port In1[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In2[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In3[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In4[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In5[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In6[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In7[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In8[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In9[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In10[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In11[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In12[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In13[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In14[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In15[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In16[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In17[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In18[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In19[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In20[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In21[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In22[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In23[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In24[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In25[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In26[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In27[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In28[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In29[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In30[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In31[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In32[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In33[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In34[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In35[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In36[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In37[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In38[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In39[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In40[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In41[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In42[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In43[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In44[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In45[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In46[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In47[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In48[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In49[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In50[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In51[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In52[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In53[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In54[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In55[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In56[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In57[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In58[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In59[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In60[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In61[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In62[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In63[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In64[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In65[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In66[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In67[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In68[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In69[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In70[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In71[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In72[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In73[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In74[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In75[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In76[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In77[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In78[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In79[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In80[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In81[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In82[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In83[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In84[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In85[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In86[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In87[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In88[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In89[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In90[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In91[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In92[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In93[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In94[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In95[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In96[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In97[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In98[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In99[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+WARNING: [Synth 8-7129] Port In100[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1387.348 ; gain = 506.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1387.348 ; gain = 506.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1387.348 ; gain = 506.105
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.036 . Memory (MB): peak = 1389.988 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/ip/MB_DESIGN_microblaze_0_1/MB_DESIGN_microblaze_0_1/MB_DESIGN_microblaze_0_1_in_context.xdc] for cell 'MB_DESIGN_i/microblaze_0'
+Finished Parsing XDC File [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/ip/MB_DESIGN_microblaze_0_1/MB_DESIGN_microblaze_0_1/MB_DESIGN_microblaze_0_1_in_context.xdc] for cell 'MB_DESIGN_i/microblaze_0'
+Parsing XDC File [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/ip/MB_DESIGN_dlmb_v10_1/MB_DESIGN_dlmb_v10_1/MB_DESIGN_dlmb_v10_1_in_context.xdc] for cell 'MB_DESIGN_i/microblaze_0_local_memory/dlmb_v10'
+Finished Parsing XDC File [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/ip/MB_DESIGN_dlmb_v10_1/MB_DESIGN_dlmb_v10_1/MB_DESIGN_dlmb_v10_1_in_context.xdc] for cell 'MB_DESIGN_i/microblaze_0_local_memory/dlmb_v10'
+Parsing XDC File [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/ip/MB_DESIGN_ilmb_v10_1/MB_DESIGN_ilmb_v10_1/MB_DESIGN_ilmb_v10_1_in_context.xdc] for cell 'MB_DESIGN_i/microblaze_0_local_memory/ilmb_v10'
+Finished Parsing XDC File [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/ip/MB_DESIGN_ilmb_v10_1/MB_DESIGN_ilmb_v10_1/MB_DESIGN_ilmb_v10_1_in_context.xdc] for cell 'MB_DESIGN_i/microblaze_0_local_memory/ilmb_v10'
+Parsing XDC File [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/ip/MB_DESIGN_dlmb_bram_if_cntlr_1/MB_DESIGN_dlmb_bram_if_cntlr_1/MB_DESIGN_dlmb_bram_if_cntlr_1_in_context.xdc] for cell 'MB_DESIGN_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+Finished Parsing XDC File [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/ip/MB_DESIGN_dlmb_bram_if_cntlr_1/MB_DESIGN_dlmb_bram_if_cntlr_1/MB_DESIGN_dlmb_bram_if_cntlr_1_in_context.xdc] for cell 'MB_DESIGN_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+Parsing XDC File [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/ip/MB_DESIGN_ilmb_bram_if_cntlr_1/MB_DESIGN_ilmb_bram_if_cntlr_1/MB_DESIGN_ilmb_bram_if_cntlr_1_in_context.xdc] for cell 'MB_DESIGN_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+Finished Parsing XDC File [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/ip/MB_DESIGN_ilmb_bram_if_cntlr_1/MB_DESIGN_ilmb_bram_if_cntlr_1/MB_DESIGN_ilmb_bram_if_cntlr_1_in_context.xdc] for cell 'MB_DESIGN_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+Parsing XDC File [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/ip/MB_DESIGN_lmb_bram_1/MB_DESIGN_lmb_bram_1/MB_DESIGN_lmb_bram_1_in_context.xdc] for cell 'MB_DESIGN_i/microblaze_0_local_memory/lmb_bram'
+Finished Parsing XDC File [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/ip/MB_DESIGN_lmb_bram_1/MB_DESIGN_lmb_bram_1/MB_DESIGN_lmb_bram_1_in_context.xdc] for cell 'MB_DESIGN_i/microblaze_0_local_memory/lmb_bram'
+Parsing XDC File [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/ip/MB_DESIGN_xbar_0/MB_DESIGN_xbar_0/MB_DESIGN_xbar_0_in_context.xdc] for cell 'MB_DESIGN_i/microblaze_0_axi_periph/xbar'
+Finished Parsing XDC File [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/ip/MB_DESIGN_xbar_0/MB_DESIGN_xbar_0/MB_DESIGN_xbar_0_in_context.xdc] for cell 'MB_DESIGN_i/microblaze_0_axi_periph/xbar'
+Parsing XDC File [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/ip/MB_DESIGN_microblaze_0_axi_intc_0/MB_DESIGN_microblaze_0_axi_intc_0/MB_DESIGN_microblaze_0_axi_intc_0_in_context.xdc] for cell 'MB_DESIGN_i/microblaze_0_axi_intc'
+Finished Parsing XDC File [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/ip/MB_DESIGN_microblaze_0_axi_intc_0/MB_DESIGN_microblaze_0_axi_intc_0/MB_DESIGN_microblaze_0_axi_intc_0_in_context.xdc] for cell 'MB_DESIGN_i/microblaze_0_axi_intc'
+Parsing XDC File [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/ip/MB_DESIGN_mdm_1_1/MB_DESIGN_mdm_1_1/MB_DESIGN_mdm_1_1_in_context.xdc] for cell 'MB_DESIGN_i/mdm_1'
+Finished Parsing XDC File [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/ip/MB_DESIGN_mdm_1_1/MB_DESIGN_mdm_1_1/MB_DESIGN_mdm_1_1_in_context.xdc] for cell 'MB_DESIGN_i/mdm_1'
+Parsing XDC File [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/ip/MB_DESIGN_clk_wiz_1_1/MB_DESIGN_clk_wiz_1_1/MB_DESIGN_clk_wiz_1_1_in_context.xdc] for cell 'MB_DESIGN_i/clk_wiz_1'
+Finished Parsing XDC File [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/ip/MB_DESIGN_clk_wiz_1_1/MB_DESIGN_clk_wiz_1_1/MB_DESIGN_clk_wiz_1_1_in_context.xdc] for cell 'MB_DESIGN_i/clk_wiz_1'
+Parsing XDC File [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/ip/MB_DESIGN_rst_clk_wiz_1_100M_1/MB_DESIGN_rst_clk_wiz_1_100M_1/MB_DESIGN_rst_clk_wiz_1_100M_1_in_context.xdc] for cell 'MB_DESIGN_i/rst_clk_wiz_1_100M'
+Finished Parsing XDC File [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/ip/MB_DESIGN_rst_clk_wiz_1_100M_1/MB_DESIGN_rst_clk_wiz_1_100M_1/MB_DESIGN_rst_clk_wiz_1_100M_1_in_context.xdc] for cell 'MB_DESIGN_i/rst_clk_wiz_1_100M'
+Parsing XDC File [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/ip/MB_DESIGN_axi_uartlite_0_0/MB_DESIGN_axi_uartlite_0_0/MB_DESIGN_axi_uartlite_0_0_in_context.xdc] for cell 'MB_DESIGN_i/axi_uartlite_0'
+Finished Parsing XDC File [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/ip/MB_DESIGN_axi_uartlite_0_0/MB_DESIGN_axi_uartlite_0_0/MB_DESIGN_axi_uartlite_0_0_in_context.xdc] for cell 'MB_DESIGN_i/axi_uartlite_0'
+Parsing XDC File [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/ip/MB_DESIGN_axi_gpio_0_1/MB_DESIGN_axi_gpio_0_1/MB_DESIGN_axi_gpio_0_1_in_context.xdc] for cell 'MB_DESIGN_i/axi_gpio_1'
+Finished Parsing XDC File [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/ip/MB_DESIGN_axi_gpio_0_1/MB_DESIGN_axi_gpio_0_1/MB_DESIGN_axi_gpio_0_1_in_context.xdc] for cell 'MB_DESIGN_i/axi_gpio_1'
+Parsing XDC File [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/ip/MB_DESIGN_axi_iic_0_1/MB_DESIGN_axi_iic_0_1/MB_DESIGN_axi_iic_0_1_in_context.xdc] for cell 'MB_DESIGN_i/axi_iic_0'
+Finished Parsing XDC File [c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/ip/MB_DESIGN_axi_iic_0_1/MB_DESIGN_axi_iic_0_1/MB_DESIGN_axi_iic_0_1_in_context.xdc] for cell 'MB_DESIGN_i/axi_iic_0'
+Parsing XDC File [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.srcs/constrs_1/new/a7-100T.xdc]
+WARNING: [Vivado 12-584] No ports matched 'clk'. [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.srcs/constrs_1/new/a7-100T.xdc:7]
+WARNING: [Vivado 12-584] No ports matched 'clk'. [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.srcs/constrs_1/new/a7-100T.xdc:8]
+WARNING: [Vivado 12-584] No ports matched 'SEG[0]'. [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.srcs/constrs_1/new/a7-100T.xdc:60]
+WARNING: [Vivado 12-584] No ports matched 'SEG[1]'. [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.srcs/constrs_1/new/a7-100T.xdc:61]
+WARNING: [Vivado 12-584] No ports matched 'SEG[2]'. [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.srcs/constrs_1/new/a7-100T.xdc:62]
+WARNING: [Vivado 12-584] No ports matched 'SEG[3]'. [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.srcs/constrs_1/new/a7-100T.xdc:63]
+WARNING: [Vivado 12-584] No ports matched 'SEG[4]'. [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.srcs/constrs_1/new/a7-100T.xdc:64]
+WARNING: [Vivado 12-584] No ports matched 'SEG[5]'. [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.srcs/constrs_1/new/a7-100T.xdc:65]
+WARNING: [Vivado 12-584] No ports matched 'SEG[6]'. [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.srcs/constrs_1/new/a7-100T.xdc:66]
+WARNING: [Vivado 12-584] No ports matched 'DP'. [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.srcs/constrs_1/new/a7-100T.xdc:68]
+WARNING: [Vivado 12-584] No ports matched 'AN[0]'. [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.srcs/constrs_1/new/a7-100T.xdc:70]
+WARNING: [Vivado 12-584] No ports matched 'AN[1]'. [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.srcs/constrs_1/new/a7-100T.xdc:71]
+WARNING: [Vivado 12-584] No ports matched 'AN[2]'. [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.srcs/constrs_1/new/a7-100T.xdc:72]
+WARNING: [Vivado 12-584] No ports matched 'AN[3]'. [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.srcs/constrs_1/new/a7-100T.xdc:73]
+WARNING: [Vivado 12-584] No ports matched 'AN[4]'. [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.srcs/constrs_1/new/a7-100T.xdc:74]
+WARNING: [Vivado 12-584] No ports matched 'AN[5]'. [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.srcs/constrs_1/new/a7-100T.xdc:75]
+WARNING: [Vivado 12-584] No ports matched 'AN[6]'. [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.srcs/constrs_1/new/a7-100T.xdc:76]
+WARNING: [Vivado 12-584] No ports matched 'AN[7]'. [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.srcs/constrs_1/new/a7-100T.xdc:77]
+WARNING: [Vivado 12-584] No ports matched 'TMP_SCL'. [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.srcs/constrs_1/new/a7-100T.xdc:199]
+WARNING: [Vivado 12-584] No ports matched 'TMP_SDA'. [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.srcs/constrs_1/new/a7-100T.xdc:200]
+WARNING: [Vivado 12-584] No ports matched 'TMP_INT'. [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.srcs/constrs_1/new/a7-100T.xdc:201]
+WARNING: [Vivado 12-584] No ports matched 'TMP_CT'. [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.srcs/constrs_1/new/a7-100T.xdc:202]
+Finished Parsing XDC File [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.srcs/constrs_1/new/a7-100T.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.srcs/constrs_1/new/a7-100T.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/MB_DESIGN_wrapper_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+Parsing XDC File [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1427.742 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1427.742 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'MB_DESIGN_i/microblaze_0_local_memory/lmb_bram' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1427.742 ; gain = 546.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1427.742 ; gain = 546.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for sys_clock. (constraint file  {c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/ip/MB_DESIGN_clk_wiz_1_1/MB_DESIGN_clk_wiz_1_1/MB_DESIGN_clk_wiz_1_1_in_context.xdc}, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for sys_clock. (constraint file  {c:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.gen/sources_1/bd/MB_DESIGN/ip/MB_DESIGN_clk_wiz_1_1/MB_DESIGN_clk_wiz_1_1/MB_DESIGN_clk_wiz_1_1_in_context.xdc}, line 4).
+Applied set_property KEEP_HIERARCHY = SOFT for MB_DESIGN_i. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for MB_DESIGN_i/microblaze_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for MB_DESIGN_i/microblaze_0_local_memory/dlmb_v10. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for MB_DESIGN_i/microblaze_0_local_memory/ilmb_v10. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for MB_DESIGN_i/microblaze_0_local_memory/dlmb_bram_if_cntlr. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for MB_DESIGN_i/microblaze_0_local_memory/ilmb_bram_if_cntlr. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for MB_DESIGN_i/microblaze_0_local_memory/lmb_bram. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for MB_DESIGN_i/microblaze_0_axi_periph/xbar. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for MB_DESIGN_i/microblaze_0_axi_periph. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for MB_DESIGN_i/microblaze_0_axi_intc. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for MB_DESIGN_i/microblaze_0_xlconcat. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for MB_DESIGN_i/mdm_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for MB_DESIGN_i/clk_wiz_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for MB_DESIGN_i/rst_clk_wiz_1_100M. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for MB_DESIGN_i/axi_uartlite_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for MB_DESIGN_i/axi_gpio_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for MB_DESIGN_i/axi_iic_0. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1427.742 ; gain = 546.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1427.742 ; gain = 546.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1427.742 ; gain = 546.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1427.742 ; gain = 546.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1427.742 ; gain = 546.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1427.742 ; gain = 546.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 1427.742 ; gain = 546.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 1427.742 ; gain = 546.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 1427.742 ; gain = 546.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 1427.742 ; gain = 546.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 1427.742 ; gain = 546.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 1427.742 ; gain = 546.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+----------------------------------+----------+
+|      |BlackBox name                     |Instances |
++------+----------------------------------+----------+
+|1     |MB_DESIGN_xbar_0                  |         1|
+|2     |MB_DESIGN_axi_gpio_0_1            |         1|
+|3     |MB_DESIGN_axi_iic_0_1             |         1|
+|4     |MB_DESIGN_axi_uartlite_0_0        |         1|
+|5     |MB_DESIGN_clk_wiz_1_1             |         1|
+|6     |MB_DESIGN_mdm_1_1                 |         1|
+|7     |MB_DESIGN_microblaze_0_1          |         1|
+|8     |MB_DESIGN_microblaze_0_axi_intc_0 |         1|
+|9     |MB_DESIGN_rst_clk_wiz_1_100M_1    |         1|
+|10    |MB_DESIGN_dlmb_bram_if_cntlr_1    |         1|
+|11    |MB_DESIGN_dlmb_v10_1              |         1|
+|12    |MB_DESIGN_ilmb_bram_if_cntlr_1    |         1|
+|13    |MB_DESIGN_ilmb_v10_1              |         1|
+|14    |MB_DESIGN_lmb_bram_1              |         1|
++------+----------------------------------+----------+
+
+Report Cell Usage: 
++------+--------------------------------+------+
+|      |Cell                            |Count |
++------+--------------------------------+------+
+|1     |MB_DESIGN_axi_gpio_0            |     1|
+|2     |MB_DESIGN_axi_iic_0             |     1|
+|3     |MB_DESIGN_axi_uartlite_0        |     1|
+|4     |MB_DESIGN_clk_wiz_1             |     1|
+|5     |MB_DESIGN_dlmb_bram_if_cntlr    |     1|
+|6     |MB_DESIGN_dlmb_v10              |     1|
+|7     |MB_DESIGN_ilmb_bram_if_cntlr    |     1|
+|8     |MB_DESIGN_ilmb_v10              |     1|
+|9     |MB_DESIGN_lmb_bram              |     1|
+|10    |MB_DESIGN_mdm_1                 |     1|
+|11    |MB_DESIGN_microblaze_0          |     1|
+|12    |MB_DESIGN_microblaze_0_axi_intc |     1|
+|13    |MB_DESIGN_rst_clk_wiz_1_100M    |     1|
+|14    |MB_DESIGN_xbar                  |     1|
+|15    |IBUF                            |     2|
+|16    |IOBUF                           |     2|
+|17    |OBUF                            |     9|
++------+--------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 1427.742 ; gain = 546.500
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 11 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:31 . Memory (MB): peak = 1427.742 ; gain = 506.105
+Synthesis Optimization Complete : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 1427.742 ; gain = 546.500
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 1427.742 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1427.742 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+
+Synth Design complete, checksum: b00081f0
+INFO: [Common 17-83] Releasing license: Synthesis
+74 Infos, 141 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 1427.742 ; gain = 956.020
+INFO: [Common 17-1381] The checkpoint 'C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.runs/synth_1/MB_DESIGN_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file MB_DESIGN_wrapper_utilization_synth.rpt -pb MB_DESIGN_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Jan  9 16:03:35 2023...

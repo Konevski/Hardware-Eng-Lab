@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Mon Jan  9 15:57:39 2023
+# Process ID: 25524
+# Current directory: C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.runs/MB_DESIGN_axi_uartlite_0_0_synth_1
+# Command line: vivado.exe -log MB_DESIGN_axi_uartlite_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MB_DESIGN_axi_uartlite_0_0.tcl
+# Log file: C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.runs/MB_DESIGN_axi_uartlite_0_0_synth_1/MB_DESIGN_axi_uartlite_0_0.vds
+# Journal file: C:/Users/GABRUUU/Desktop/VSLI lab/VLSI_PROJ_MB_HW/VLSI_PROJ_MB_HW.runs/MB_DESIGN_axi_uartlite_0_0_synth_1\vivado.jou
+# Running On: DESKTOP-M25C6O1, OS: Windows, CPU Frequency: 2370 MHz, CPU Physical cores: 6, Host memory: 7932 MB
+#-----------------------------------------------------------
+source MB_DESIGN_axi_uartlite_0_0.tcl -notrace
