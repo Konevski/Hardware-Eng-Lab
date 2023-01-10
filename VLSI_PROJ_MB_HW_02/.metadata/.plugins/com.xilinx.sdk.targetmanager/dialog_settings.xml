@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="VLSI_PROJ__DEMO_HELLO_system-bitFile" value="${project_loc:VLSI_PROJ__DEMO_HELLO}/_ide/bitstream/HARDWARE_ARCHI_wrapper.bit"/>
+	<item key="VLSI_PROJ__DEMO_HELLO_system-bmmFile" value="${project_loc:VLSI_PROJ__DEMO_HELLO}/_ide/bitstream/HARDWARE_ARCHI_wrapper.mmi"/>
+	<item key="VLSI_PROJ__DEMO_HELLO_system-target" value="Local"/>
+	<item key="VLSI_PROJ__DEMO_HELLO_system-device" value="Auto Detect"/>
+	<item key="VLSI_PROJ__DEMO_HELLO_system-partial_bit" value="false"/>
+	<item key="VLSI_PROJ__DEMO_HELLO_system-skip_rev_check" value="false"/>
+	<item key="programfpga.sdxproject" value="VLSI_PROJ__DEMO_HELLO_system"/>
+	<item key="VLSI_PROJ__DEMO_HELLO_system-microblaze_0-initElf" value="bootloop"/>
+	<item key="devices_info_Local" value="{&quot;cables&quot;:[{&quot;name&quot;:&quot;Digilent Nexys A7 -100T 210292B61C47A&quot;,&quot;indexContextMap&quot;:{&quot;2&quot;:&quot;jsn-Nexys A7 -100T-210292B61C47A-13631093-0&quot;}}]}"/>
+</section>

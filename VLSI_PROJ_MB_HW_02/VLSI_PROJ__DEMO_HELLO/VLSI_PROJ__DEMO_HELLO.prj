@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="VLSI_PROJ__DEMO_HELLO" location="C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ__DEMO_HELLO" platform="C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/export/VLSI_PROJ_VITIS/VLSI_PROJ_VITIS.xpfm" platformUID="xilinx:nexys-a7-100t::0.0(custom)" systemProject="VLSI_PROJ__DEMO_HELLO_system" sysConfig="VLSI_PROJ_VITIS" runtime="C/C++" cpu="standalone_domain" cpuInstance="microblaze_0" os="standalone" mssSignature="73d0408d971c727e964a63feaa377409">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.2038724532">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.1738399921" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

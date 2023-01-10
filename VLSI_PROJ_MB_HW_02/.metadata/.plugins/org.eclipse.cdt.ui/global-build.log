@@ -1,0 +1,25 @@
+Nothing to build in platform 'VLSI_PROJ_VITIS'
+
+22:18:32 **** Build of configuration Debug for project VLSI_PROJ__DEMO_HELLO ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IC:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/export/VLSI_PROJ_VITIS/sw/VLSI_PROJ_VITIS/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -IC:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/export/VLSI_PROJ_VITIS/sw/VLSI_PROJ_VITIS/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: VLSI_PROJ__DEMO_HELLO.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/export/VLSI_PROJ_VITIS/sw/VLSI_PROJ_VITIS/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "VLSI_PROJ__DEMO_HELLO.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: VLSI_PROJ__DEMO_HELLO.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size VLSI_PROJ__DEMO_HELLO.elf  |tee "VLSI_PROJ__DEMO_HELLO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2908	    316	   3112	   6336	   18c0	VLSI_PROJ__DEMO_HELLO.elf
+'Finished building: VLSI_PROJ__DEMO_HELLO.elf.size'
+' '

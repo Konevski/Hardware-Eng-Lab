@@ -1,0 +1,51 @@
+22:08:01 DEBUG : Logs will be stored at 'C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/IDE.log'.
+22:08:04 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\konev\Desktop\VLSI_PROJ_MB_HW_02\temp_xsdb_launch_script.tcl
+22:08:07 INFO  : XSCT server has started successfully.
+22:08:07 INFO  : plnx-install-location is set to ''
+22:08:07 INFO  : Successfully done setting XSCT server connection channel  
+22:08:07 INFO  : Successfully done setting workspace for the tool. 
+22:08:14 INFO  : Registering command handlers for Vitis TCF services
+22:08:15 INFO  : Platform repository initialization has completed.
+22:08:16 INFO  : Successfully done query RDI_DATADIR 
+22:10:05 INFO  : Result from executing command 'getProjects': VLSI_PROJ_VITIS
+22:10:05 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+22:11:06 INFO  : Result from executing command 'getProjects': VLSI_PROJ_VITIS
+22:11:06 INFO  : Result from executing command 'getPlatforms': VLSI_PROJ_VITIS|C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/export/VLSI_PROJ_VITIS/VLSI_PROJ_VITIS.xpfm;xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+22:18:32 INFO  : Checking for BSP changes to sync application flags for project 'VLSI_PROJ__DEMO_HELLO'...
+22:21:39 INFO  : Bit file 'C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ__DEMO_HELLO/_ide/bitstream/download.bit' is generated.
+22:22:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:22:56 INFO  : Jtag cable 'Digilent Nexys A7 -100T 210292B61C47A' is selected.
+22:22:56 INFO  : 'jtag frequency' command is executed.
+22:22:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61C47A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61C47A-13631093-0"}' command is executed.
+22:22:58 INFO  : Device configured successfully with "C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ__DEMO_HELLO/_ide/bitstream/download.bit"
+22:22:58 INFO  : Context for processor 'microblaze_0' is selected.
+22:22:58 INFO  : Hardware design and registers information is loaded from 'C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/export/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa'.
+22:22:58 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:22:58 INFO  : Context for processor 'microblaze_0' is selected.
+22:22:58 INFO  : System reset is completed.
+22:23:01 INFO  : 'after 3000' command is executed.
+22:23:01 INFO  : Context for processor 'microblaze_0' is selected.
+22:23:01 INFO  : The application 'C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ__DEMO_HELLO/Debug/VLSI_PROJ__DEMO_HELLO.elf' is downloaded to processor 'microblaze_0'.
+22:23:01 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys A7 -100T 210292B61C47A" && level==0 && jtag_device_ctx=="jsn-Nexys A7 -100T-210292B61C47A-13631093-0"}
+fpga -file C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ__DEMO_HELLO/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/export/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ__DEMO_HELLO/Debug/VLSI_PROJ__DEMO_HELLO.elf
+----------------End of Script----------------
+
+22:23:01 INFO  : Context for processor 'microblaze_0' is selected.
+22:23:01 INFO  : 'con' command is executed.
+22:23:01 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:23:01 INFO  : Launch script is exported to file 'C:\Users\konev\Desktop\VLSI_PROJ_MB_HW_02\VLSI_PROJ__DEMO_HELLO_system\_ide\scripts\debugger_vlsi_proj__demo_hello-default.tcl'
+22:33:04 INFO  : Disconnected from the channel tcfchan#2.

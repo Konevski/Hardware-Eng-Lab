@@ -1,0 +1,1068 @@
+TRACE::2023-01-10.22:10:03::SCWPlatform::Trying to open the hw design at C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:03::SCWPlatform::DSA given C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:03::SCWPlatform::DSA absoulate path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:03::SCWPlatform::DSA directory C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw
+TRACE::2023-01-10.22:10:03::SCWPlatform:: Platform Path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:03::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2023-01-10.22:10:03::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-01-10.22:10:04::SCWPlatform::Opened new HwDB with name HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:04::SCWWriter::formatted JSON is {
+	"platformName":	"VLSI_PROJ_VITIS",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"VLSI_PROJ_VITIS",
+	"platHandOff":	"C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/HARDWARE_ARCHI_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/HARDWARE_ARCHI_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2023-01-10.22:10:04::SCWWriter::formatted JSON is {
+	"platformName":	"VLSI_PROJ_VITIS",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"VLSI_PROJ_VITIS",
+	"platHandOff":	"C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/HARDWARE_ARCHI_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/HARDWARE_ARCHI_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"VLSI_PROJ_VITIS",
+	"systems":	[{
+			"systemName":	"VLSI_PROJ_VITIS",
+			"systemDesc":	"VLSI_PROJ_VITIS",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"VLSI_PROJ_VITIS"
+		}]
+}
+TRACE::2023-01-10.22:10:04::SCWPlatform::Boot application domains not present, creating them
+TRACE::2023-01-10.22:10:04::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2023-01-10.22:10:04::SCWWriter::formatted JSON is {
+	"platformName":	"VLSI_PROJ_VITIS",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"VLSI_PROJ_VITIS",
+	"platHandOff":	"C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/HARDWARE_ARCHI_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/HARDWARE_ARCHI_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"VLSI_PROJ_VITIS",
+	"systems":	[{
+			"systemName":	"VLSI_PROJ_VITIS",
+			"systemDesc":	"VLSI_PROJ_VITIS",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"VLSI_PROJ_VITIS"
+		}]
+}
+TRACE::2023-01-10.22:10:04::SCWPlatform::Trying to open the hw design at C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:04::SCWPlatform::DSA given C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:04::SCWPlatform::DSA absoulate path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:04::SCWPlatform::DSA directory C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw
+TRACE::2023-01-10.22:10:04::SCWPlatform:: Platform Path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:04::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2023-01-10.22:10:04::SCWPlatform::Trying to set the existing hwdb with name HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:04::SCWPlatform::Opened existing hwdb HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-10.22:10:04::SCWPlatform::Trying to open the hw design at C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:04::SCWPlatform::DSA given C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:04::SCWPlatform::DSA absoulate path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:04::SCWPlatform::DSA directory C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw
+TRACE::2023-01-10.22:10:04::SCWPlatform:: Platform Path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:04::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2023-01-10.22:10:04::SCWPlatform::Trying to set the existing hwdb with name HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:04::SCWPlatform::Opened existing hwdb HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-10.22:10:04::SCWPlatform::Trying to open the hw design at C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:04::SCWPlatform::DSA given C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:04::SCWPlatform::DSA absoulate path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:04::SCWPlatform::DSA directory C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw
+TRACE::2023-01-10.22:10:04::SCWPlatform:: Platform Path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:04::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2023-01-10.22:10:04::SCWPlatform::Trying to set the existing hwdb with name HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:04::SCWPlatform::Opened existing hwdb HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-10.22:10:04::SCWDomain::checking for install qemu data   : 
+TRACE::2023-01-10.22:10:04::SCWPlatform::Trying to open the hw design at C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:04::SCWPlatform::DSA given C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:04::SCWPlatform::DSA absoulate path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:04::SCWPlatform::DSA directory C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw
+TRACE::2023-01-10.22:10:04::SCWPlatform:: Platform Path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:04::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2023-01-10.22:10:04::SCWPlatform::Trying to set the existing hwdb with name HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:04::SCWPlatform::Opened existing hwdb HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-10.22:10:04::SCWPlatform::Trying to open the hw design at C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:04::SCWPlatform::DSA given C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:04::SCWPlatform::DSA absoulate path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:04::SCWPlatform::DSA directory C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw
+TRACE::2023-01-10.22:10:04::SCWPlatform:: Platform Path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:04::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2023-01-10.22:10:04::SCWPlatform::Trying to set the existing hwdb with name HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:04::SCWPlatform::Opened existing hwdb HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-10.22:10:04::SCWPlatform::Trying to open the hw design at C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:04::SCWPlatform::DSA given C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:04::SCWPlatform::DSA absoulate path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:04::SCWPlatform::DSA directory C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw
+TRACE::2023-01-10.22:10:04::SCWPlatform:: Platform Path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:04::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2023-01-10.22:10:04::SCWPlatform::Trying to set the existing hwdb with name HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:04::SCWPlatform::Opened existing hwdb HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-10.22:10:04::SCWMssOS::Checking the sw design at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:04::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-01-10.22:10:04::SCWMssOS::No sw design opened at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:04::SCWMssOS::mss does not exists at C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:04::SCWMssOS::Creating sw design at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:04::SCWMssOS::Adding the swdes entry, created swdb C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss with des name C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:04::SCWMssOS::updating the scw layer changes to swdes at   C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:04::SCWMssOS::Writing mss at C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:04::SCWMssOS::Completed writing the mss file at C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp
+TRACE::2023-01-10.22:10:04::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2023-01-10.22:10:04::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2023-01-10.22:10:04::SCWMssOS::Completed writing the mss file at C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp
+TRACE::2023-01-10.22:10:04::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2023-01-10.22:10:05::SCWMssOS::Saving the mss changes C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:05::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2023-01-10.22:10:05::SCWMssOS::Writing the mss file completed C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:05::SCWMssOS::Commit changes completed.
+TRACE::2023-01-10.22:10:05::SCWPlatform::Trying to open the hw design at C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:05::SCWPlatform::DSA given C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:05::SCWPlatform::DSA absoulate path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:05::SCWPlatform::DSA directory C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw
+TRACE::2023-01-10.22:10:05::SCWPlatform:: Platform Path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:05::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2023-01-10.22:10:05::SCWPlatform::Trying to set the existing hwdb with name HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:05::SCWPlatform::Opened existing hwdb HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-10.22:10:05::SCWMssOS::Checking the sw design at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:05::SCWMssOS::DEBUG:  swdes dump  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-01-10.22:10:05::SCWMssOS::Sw design exists and opened at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:05::SCWPlatform::Trying to open the hw design at C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:05::SCWPlatform::DSA given C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:05::SCWPlatform::DSA absoulate path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:05::SCWPlatform::DSA directory C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw
+TRACE::2023-01-10.22:10:05::SCWPlatform:: Platform Path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:05::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2023-01-10.22:10:05::SCWPlatform::Trying to set the existing hwdb with name HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:05::SCWPlatform::Opened existing hwdb HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-10.22:10:05::SCWMssOS::Checking the sw design at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:05::SCWMssOS::DEBUG:  swdes dump  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-01-10.22:10:05::SCWMssOS::Sw design exists and opened at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:05::SCWPlatform::Trying to open the hw design at C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:05::SCWPlatform::DSA given C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:05::SCWPlatform::DSA absoulate path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:05::SCWPlatform::DSA directory C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw
+TRACE::2023-01-10.22:10:05::SCWPlatform:: Platform Path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:05::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2023-01-10.22:10:05::SCWPlatform::Trying to set the existing hwdb with name HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:05::SCWPlatform::Opened existing hwdb HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-10.22:10:05::SCWMssOS::Checking the sw design at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:05::SCWMssOS::DEBUG:  swdes dump  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-01-10.22:10:05::SCWMssOS::Sw design exists and opened at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:05::SCWWriter::formatted JSON is {
+	"platformName":	"VLSI_PROJ_VITIS",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"VLSI_PROJ_VITIS",
+	"platHandOff":	"C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/HARDWARE_ARCHI_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/HARDWARE_ARCHI_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"VLSI_PROJ_VITIS",
+	"systems":	[{
+			"systemName":	"VLSI_PROJ_VITIS",
+			"systemDesc":	"VLSI_PROJ_VITIS",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"VLSI_PROJ_VITIS",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"3d2d224d06325d09dc4ecdb24f48f1c2",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2023-01-10.22:10:05::SCWPlatform::Started generating the artifacts platform VLSI_PROJ_VITIS
+TRACE::2023-01-10.22:10:05::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-01-10.22:10:05::SCWPlatform::Started generating the artifacts for system configuration VLSI_PROJ_VITIS
+LOG::2023-01-10.22:10:05::SCWSystem::Checking the domain standalone_domain
+LOG::2023-01-10.22:10:05::SCWSystem::Not a boot domain 
+LOG::2023-01-10.22:10:05::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2023-01-10.22:10:05::SCWDomain::Generating domain artifcats
+TRACE::2023-01-10.22:10:05::SCWMssOS::Generating standalone artifcats
+TRACE::2023-01-10.22:10:05::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-01-10.22:10:05::SCWPlatform::Trying to open the hw design at C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:05::SCWPlatform::DSA given C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:05::SCWPlatform::DSA absoulate path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:05::SCWPlatform::DSA directory C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw
+TRACE::2023-01-10.22:10:05::SCWPlatform:: Platform Path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:05::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2023-01-10.22:10:05::SCWPlatform::Trying to set the existing hwdb with name HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:05::SCWPlatform::Opened existing hwdb HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-10.22:10:05::SCWMssOS::Checking the sw design at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:05::SCWMssOS::DEBUG:  swdes dump  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-01-10.22:10:05::SCWMssOS::Sw design exists and opened at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:05::SCWMssOS::Completed writing the mss file at C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp
+TRACE::2023-01-10.22:10:05::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:05::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-01-10.22:10:05::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-01-10.22:10:05::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2023-01-10.22:10:05::SCWMssOS::skipping the bsp build ... 
+TRACE::2023-01-10.22:10:05::SCWMssOS::Copying to export directory.
+TRACE::2023-01-10.22:10:05::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-01-10.22:10:05::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-01-10.22:10:05::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2023-01-10.22:10:05::SCWSystem::Completed Processing the sysconfig VLSI_PROJ_VITIS
+LOG::2023-01-10.22:10:05::SCWPlatform::Completed generating the artifacts for system configuration VLSI_PROJ_VITIS
+TRACE::2023-01-10.22:10:05::SCWPlatform::Started preparing the platform 
+TRACE::2023-01-10.22:10:05::SCWSystem::Writing the bif file for system config VLSI_PROJ_VITIS
+TRACE::2023-01-10.22:10:05::SCWSystem::dir created 
+TRACE::2023-01-10.22:10:05::SCWSystem::Writing the bif 
+TRACE::2023-01-10.22:10:05::SCWPlatform::Started writing the spfm file 
+TRACE::2023-01-10.22:10:05::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-01-10.22:10:05::SCWPlatform::Completed generating the platform
+TRACE::2023-01-10.22:10:05::SCWMssOS::Saving the mss changes C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:05::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-01-10.22:10:05::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-01-10.22:10:05::SCWMssOS::Commit changes completed.
+TRACE::2023-01-10.22:10:05::SCWPlatform::Trying to open the hw design at C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:05::SCWPlatform::DSA given C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:05::SCWPlatform::DSA absoulate path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:05::SCWPlatform::DSA directory C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw
+TRACE::2023-01-10.22:10:05::SCWPlatform:: Platform Path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:05::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2023-01-10.22:10:05::SCWPlatform::Trying to set the existing hwdb with name HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:05::SCWPlatform::Opened existing hwdb HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-10.22:10:05::SCWMssOS::Checking the sw design at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:05::SCWMssOS::DEBUG:  swdes dump  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-01-10.22:10:05::SCWMssOS::Sw design exists and opened at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:05::SCWPlatform::Trying to open the hw design at C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:05::SCWPlatform::DSA given C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:05::SCWPlatform::DSA absoulate path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:05::SCWPlatform::DSA directory C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw
+TRACE::2023-01-10.22:10:05::SCWPlatform:: Platform Path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:05::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2023-01-10.22:10:05::SCWPlatform::Trying to set the existing hwdb with name HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:05::SCWPlatform::Opened existing hwdb HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-10.22:10:05::SCWMssOS::Checking the sw design at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:05::SCWMssOS::DEBUG:  swdes dump  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-01-10.22:10:05::SCWMssOS::Sw design exists and opened at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:05::SCWPlatform::Trying to open the hw design at C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:05::SCWPlatform::DSA given C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:05::SCWPlatform::DSA absoulate path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:05::SCWPlatform::DSA directory C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw
+TRACE::2023-01-10.22:10:05::SCWPlatform:: Platform Path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:05::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2023-01-10.22:10:05::SCWPlatform::Trying to set the existing hwdb with name HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:05::SCWPlatform::Opened existing hwdb HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:05::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-10.22:10:05::SCWMssOS::Checking the sw design at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:05::SCWMssOS::DEBUG:  swdes dump  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-01-10.22:10:05::SCWMssOS::Sw design exists and opened at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:05::SCWWriter::formatted JSON is {
+	"platformName":	"VLSI_PROJ_VITIS",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"VLSI_PROJ_VITIS",
+	"platHandOff":	"C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/HARDWARE_ARCHI_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/HARDWARE_ARCHI_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"VLSI_PROJ_VITIS",
+	"systems":	[{
+			"systemName":	"VLSI_PROJ_VITIS",
+			"systemDesc":	"VLSI_PROJ_VITIS",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"VLSI_PROJ_VITIS",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"3d2d224d06325d09dc4ecdb24f48f1c2",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-01-10.22:10:05::SCWPlatform::updated the xpfm file.
+TRACE::2023-01-10.22:10:06::SCWPlatform::Trying to open the hw design at C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA given C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA absoulate path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA directory C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw
+TRACE::2023-01-10.22:10:06::SCWPlatform:: Platform Path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2023-01-10.22:10:06::SCWPlatform::Trying to set the existing hwdb with name HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:06::SCWPlatform::Opened existing hwdb HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-10.22:10:06::SCWMssOS::Checking the sw design at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-01-10.22:10:06::SCWMssOS::Sw design exists and opened at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:06::SCWMssOS::Saving the mss changes C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:06::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-01-10.22:10:06::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-01-10.22:10:06::SCWMssOS::Commit changes completed.
+TRACE::2023-01-10.22:10:06::SCWPlatform::Trying to open the hw design at C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA given C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA absoulate path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA directory C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw
+TRACE::2023-01-10.22:10:06::SCWPlatform:: Platform Path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2023-01-10.22:10:06::SCWPlatform::Trying to set the existing hwdb with name HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:06::SCWPlatform::Opened existing hwdb HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-10.22:10:06::SCWMssOS::Checking the sw design at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-01-10.22:10:06::SCWMssOS::Sw design exists and opened at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:06::SCWPlatform::Trying to open the hw design at C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA given C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA absoulate path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA directory C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw
+TRACE::2023-01-10.22:10:06::SCWPlatform:: Platform Path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2023-01-10.22:10:06::SCWPlatform::Trying to set the existing hwdb with name HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:06::SCWPlatform::Opened existing hwdb HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-10.22:10:06::SCWMssOS::Checking the sw design at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-01-10.22:10:06::SCWMssOS::Sw design exists and opened at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:06::SCWPlatform::Trying to open the hw design at C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA given C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA absoulate path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA directory C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw
+TRACE::2023-01-10.22:10:06::SCWPlatform:: Platform Path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2023-01-10.22:10:06::SCWPlatform::Trying to set the existing hwdb with name HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:06::SCWPlatform::Opened existing hwdb HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-10.22:10:06::SCWMssOS::Checking the sw design at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-01-10.22:10:06::SCWMssOS::Sw design exists and opened at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:06::SCWWriter::formatted JSON is {
+	"platformName":	"VLSI_PROJ_VITIS",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"VLSI_PROJ_VITIS",
+	"platHandOff":	"C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/HARDWARE_ARCHI_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/HARDWARE_ARCHI_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"VLSI_PROJ_VITIS",
+	"systems":	[{
+			"systemName":	"VLSI_PROJ_VITIS",
+			"systemDesc":	"VLSI_PROJ_VITIS",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"VLSI_PROJ_VITIS",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"3d2d224d06325d09dc4ecdb24f48f1c2",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-01-10.22:10:06::SCWPlatform::Trying to open the hw design at C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA given C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA absoulate path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA directory C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw
+TRACE::2023-01-10.22:10:06::SCWPlatform:: Platform Path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2023-01-10.22:10:06::SCWPlatform::Trying to set the existing hwdb with name HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:06::SCWPlatform::Opened existing hwdb HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-10.22:10:06::SCWMssOS::Checking the sw design at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-01-10.22:10:06::SCWMssOS::Sw design exists and opened at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:06::SCWPlatform::Trying to open the hw design at C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA given C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA absoulate path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA directory C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw
+TRACE::2023-01-10.22:10:06::SCWPlatform:: Platform Path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2023-01-10.22:10:06::SCWPlatform::Trying to set the existing hwdb with name HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:06::SCWPlatform::Opened existing hwdb HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-10.22:10:06::SCWMssOS::Checking the sw design at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-01-10.22:10:06::SCWMssOS::Sw design exists and opened at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:06::SCWPlatform::Trying to open the hw design at C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA given C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA absoulate path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA directory C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw
+TRACE::2023-01-10.22:10:06::SCWPlatform:: Platform Path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2023-01-10.22:10:06::SCWPlatform::Trying to set the existing hwdb with name HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:06::SCWPlatform::Opened existing hwdb HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-10.22:10:06::SCWMssOS::Checking the sw design at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-01-10.22:10:06::SCWMssOS::Sw design exists and opened at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:06::SCWMssOS::Saving the mss changes C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:06::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-01-10.22:10:06::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-01-10.22:10:06::SCWMssOS::Commit changes completed.
+TRACE::2023-01-10.22:10:06::SCWPlatform::Trying to open the hw design at C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA given C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA absoulate path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA directory C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw
+TRACE::2023-01-10.22:10:06::SCWPlatform:: Platform Path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2023-01-10.22:10:06::SCWPlatform::Trying to set the existing hwdb with name HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:06::SCWPlatform::Opened existing hwdb HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-10.22:10:06::SCWMssOS::Checking the sw design at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-01-10.22:10:06::SCWMssOS::Sw design exists and opened at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:06::SCWPlatform::Trying to open the hw design at C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA given C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA absoulate path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA directory C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw
+TRACE::2023-01-10.22:10:06::SCWPlatform:: Platform Path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2023-01-10.22:10:06::SCWPlatform::Trying to set the existing hwdb with name HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:06::SCWPlatform::Opened existing hwdb HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-10.22:10:06::SCWMssOS::Checking the sw design at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-01-10.22:10:06::SCWMssOS::Sw design exists and opened at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:06::SCWPlatform::Trying to open the hw design at C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA given C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA absoulate path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA directory C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw
+TRACE::2023-01-10.22:10:06::SCWPlatform:: Platform Path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2023-01-10.22:10:06::SCWPlatform::Trying to set the existing hwdb with name HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:06::SCWPlatform::Opened existing hwdb HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-10.22:10:06::SCWMssOS::Checking the sw design at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-01-10.22:10:06::SCWMssOS::Sw design exists and opened at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:06::SCWWriter::formatted JSON is {
+	"platformName":	"VLSI_PROJ_VITIS",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"VLSI_PROJ_VITIS",
+	"platHandOff":	"C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/HARDWARE_ARCHI_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/HARDWARE_ARCHI_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"VLSI_PROJ_VITIS",
+	"systems":	[{
+			"systemName":	"VLSI_PROJ_VITIS",
+			"systemDesc":	"VLSI_PROJ_VITIS",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"VLSI_PROJ_VITIS",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"3d2d224d06325d09dc4ecdb24f48f1c2",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-01-10.22:10:06::SCWMssOS::Saving the mss changes C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:06::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-01-10.22:10:06::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-01-10.22:10:06::SCWMssOS::Commit changes completed.
+TRACE::2023-01-10.22:10:06::SCWPlatform::Trying to open the hw design at C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA given C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA absoulate path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA directory C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw
+TRACE::2023-01-10.22:10:06::SCWPlatform:: Platform Path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2023-01-10.22:10:06::SCWPlatform::Trying to set the existing hwdb with name HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:06::SCWPlatform::Opened existing hwdb HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-10.22:10:06::SCWMssOS::Checking the sw design at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-01-10.22:10:06::SCWMssOS::Sw design exists and opened at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:06::SCWPlatform::Trying to open the hw design at C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA given C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA absoulate path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA directory C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw
+TRACE::2023-01-10.22:10:06::SCWPlatform:: Platform Path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2023-01-10.22:10:06::SCWPlatform::Trying to set the existing hwdb with name HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:06::SCWPlatform::Opened existing hwdb HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-10.22:10:06::SCWMssOS::Checking the sw design at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-01-10.22:10:06::SCWMssOS::Sw design exists and opened at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:06::SCWPlatform::Trying to open the hw design at C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA given C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA absoulate path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA directory C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw
+TRACE::2023-01-10.22:10:06::SCWPlatform:: Platform Path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2023-01-10.22:10:06::SCWPlatform::Trying to set the existing hwdb with name HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:06::SCWPlatform::Opened existing hwdb HARDWARE_ARCHI_wrapper_0
+TRACE::2023-01-10.22:10:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-10.22:10:06::SCWMssOS::Checking the sw design at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-01-10.22:10:06::SCWMssOS::Sw design exists and opened at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:06::SCWWriter::formatted JSON is {
+	"platformName":	"VLSI_PROJ_VITIS",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"VLSI_PROJ_VITIS",
+	"platHandOff":	"C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/HARDWARE_ARCHI_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/HARDWARE_ARCHI_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"VLSI_PROJ_VITIS",
+	"systems":	[{
+			"systemName":	"VLSI_PROJ_VITIS",
+			"systemDesc":	"VLSI_PROJ_VITIS",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"VLSI_PROJ_VITIS",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"3d2d224d06325d09dc4ecdb24f48f1c2",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-01-10.22:10:06::SCWPlatform::Clearing the existing platform
+TRACE::2023-01-10.22:10:06::SCWSystem::Clearing the existing sysconfig
+TRACE::2023-01-10.22:10:06::SCWMssOS::Removing the swdes entry for  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:06::SCWSystem::Clearing the domains completed.
+TRACE::2023-01-10.22:10:06::SCWPlatform::Clearing the opened hw db.
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA given C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA absoulate path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform:: Platform location is C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw
+TRACE::2023-01-10.22:10:06::SCWPlatform:: Platform Path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2023-01-10.22:10:06::SCWPlatform::Removing the HwDB with name C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::Trying to open the hw design at C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA given C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA absoulate path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA directory C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw
+TRACE::2023-01-10.22:10:06::SCWPlatform:: Platform Path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2023-01-10.22:10:06::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-01-10.22:10:06::SCWPlatform::Opened new HwDB with name HARDWARE_ARCHI_wrapper_1
+TRACE::2023-01-10.22:10:06::SCWReader::Active system found as  VLSI_PROJ_VITIS
+TRACE::2023-01-10.22:10:06::SCWReader::Handling sysconfig VLSI_PROJ_VITIS
+TRACE::2023-01-10.22:10:06::SCWDomain::checking for install qemu data   : 
+TRACE::2023-01-10.22:10:06::SCWPlatform::Trying to open the hw design at C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA given C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA absoulate path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA directory C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw
+TRACE::2023-01-10.22:10:06::SCWPlatform:: Platform Path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2023-01-10.22:10:06::SCWPlatform::Trying to set the existing hwdb with name HARDWARE_ARCHI_wrapper_1
+TRACE::2023-01-10.22:10:06::SCWPlatform::Opened existing hwdb HARDWARE_ARCHI_wrapper_1
+TRACE::2023-01-10.22:10:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-10.22:10:06::SCWPlatform::Trying to open the hw design at C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA given C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA absoulate path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA directory C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw
+TRACE::2023-01-10.22:10:06::SCWPlatform:: Platform Path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2023-01-10.22:10:06::SCWPlatform::Trying to set the existing hwdb with name HARDWARE_ARCHI_wrapper_1
+TRACE::2023-01-10.22:10:06::SCWPlatform::Opened existing hwdb HARDWARE_ARCHI_wrapper_1
+TRACE::2023-01-10.22:10:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-10.22:10:06::SCWPlatform::Trying to open the hw design at C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA given C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA absoulate path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform::DSA directory C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw
+TRACE::2023-01-10.22:10:06::SCWPlatform:: Platform Path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:06::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2023-01-10.22:10:06::SCWPlatform::Trying to set the existing hwdb with name HARDWARE_ARCHI_wrapper_1
+TRACE::2023-01-10.22:10:06::SCWPlatform::Opened existing hwdb HARDWARE_ARCHI_wrapper_1
+TRACE::2023-01-10.22:10:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-10.22:10:06::SCWPlatform::Trying to open the hw design at C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:07::SCWPlatform::DSA given C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:07::SCWPlatform::DSA absoulate path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:07::SCWPlatform::DSA directory C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw
+TRACE::2023-01-10.22:10:07::SCWPlatform:: Platform Path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:07::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2023-01-10.22:10:07::SCWPlatform::Trying to set the existing hwdb with name HARDWARE_ARCHI_wrapper_1
+TRACE::2023-01-10.22:10:07::SCWPlatform::Opened existing hwdb HARDWARE_ARCHI_wrapper_1
+TRACE::2023-01-10.22:10:07::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-10.22:10:07::SCWMssOS::Checking the sw design at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:07::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-01-10.22:10:07::SCWMssOS::No sw design opened at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:07::SCWMssOS::mss exists loading the mss file  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:07::SCWMssOS::Opened the sw design from mss  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:07::SCWMssOS::Adding the swdes entry C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2023-01-10.22:10:07::SCWMssOS::updating the scw layer about changes
+TRACE::2023-01-10.22:10:07::SCWMssOS::Opened the sw design.  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:07::SCWMssOS::Saving the mss changes C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:07::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-01-10.22:10:07::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-01-10.22:10:07::SCWMssOS::Commit changes completed.
+TRACE::2023-01-10.22:10:07::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-01-10.22:10:07::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-01-10.22:10:07::SCWPlatform::Trying to open the hw design at C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:07::SCWPlatform::DSA given C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:07::SCWPlatform::DSA absoulate path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:07::SCWPlatform::DSA directory C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw
+TRACE::2023-01-10.22:10:07::SCWPlatform:: Platform Path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:10:07::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2023-01-10.22:10:07::SCWPlatform::Trying to set the existing hwdb with name HARDWARE_ARCHI_wrapper_1
+TRACE::2023-01-10.22:10:07::SCWPlatform::Opened existing hwdb HARDWARE_ARCHI_wrapper_1
+TRACE::2023-01-10.22:10:07::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-10.22:10:07::SCWMssOS::Checking the sw design at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:07::SCWMssOS::DEBUG:  swdes dump  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-01-10.22:10:07::SCWMssOS::Sw design exists and opened at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:10:07::SCWReader::No isolation master present  
+LOG::2023-01-10.22:11:04::SCWPlatform::Started generating the artifacts platform VLSI_PROJ_VITIS
+TRACE::2023-01-10.22:11:04::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-01-10.22:11:04::SCWPlatform::Started generating the artifacts for system configuration VLSI_PROJ_VITIS
+LOG::2023-01-10.22:11:04::SCWSystem::Checking the domain standalone_domain
+LOG::2023-01-10.22:11:04::SCWSystem::Not a boot domain 
+LOG::2023-01-10.22:11:04::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2023-01-10.22:11:04::SCWDomain::Generating domain artifcats
+TRACE::2023-01-10.22:11:04::SCWMssOS::Generating standalone artifcats
+TRACE::2023-01-10.22:11:04::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-01-10.22:11:04::SCWPlatform::Trying to open the hw design at C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:11:04::SCWPlatform::DSA given C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:11:04::SCWPlatform::DSA absoulate path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:11:04::SCWPlatform::DSA directory C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw
+TRACE::2023-01-10.22:11:04::SCWPlatform:: Platform Path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:11:04::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2023-01-10.22:11:04::SCWPlatform::Trying to set the existing hwdb with name HARDWARE_ARCHI_wrapper_1
+TRACE::2023-01-10.22:11:04::SCWPlatform::Opened existing hwdb HARDWARE_ARCHI_wrapper_1
+TRACE::2023-01-10.22:11:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-10.22:11:04::SCWMssOS::Checking the sw design at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:11:04::SCWMssOS::DEBUG:  swdes dump  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-01-10.22:11:04::SCWMssOS::Sw design exists and opened at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:11:04::SCWMssOS::Completed writing the mss file at C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp
+TRACE::2023-01-10.22:11:04::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:11:04::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-01-10.22:11:04::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-01-10.22:11:04::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2023-01-10.22:11:04::SCWMssOS::doing bsp build ... 
+TRACE::2023-01-10.22:11:04::SCWMssOS::System Command Ran  C: & cd  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp & make 
+TRACE::2023-01-10.22:11:04::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2023-01-10.22:11:04::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2023-01-10.22:11:04::SCWMssOS::make -j 14 --no-print-directory par_libs
+
+TRACE::2023-01-10.22:11:04::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2023-01-10.22:11:04::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-01-10.22:11:04::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-01-10.22:11:04::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-01-10.22:11:04::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2023-01-10.22:11:04::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-01-10.22:11:04::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-01-10.22:11:04::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-01-10.22:11:04::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2023-01-10.22:11:04::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-01-10.22:11:04::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-01-10.22:11:04::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-01-10.22:11:04::SCWMssOS::"Running Make include in microblaze_0/libsrc/iic_v3_9/src"
+
+TRACE::2023-01-10.22:11:04::SCWMssOS::make -C microblaze_0/libsrc/iic_v3_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2023-01-10.22:11:04::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -
+TRACE::2023-01-10.22:11:04::SCWMssOS::Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-01-10.22:11:04::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_15/src"
+
+TRACE::2023-01-10.22:11:05::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2023-01-10.22:11:05::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2023-01-10.22:11:05::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-01-10.22:11:05::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2023-01-10.22:11:05::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2023-01-10.22:11:05::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2023-01-10.22:11:05::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-01-10.22:11:05::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2023-01-10.22:11:05::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2023-01-10.22:11:05::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2023-01-10.22:11:05::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-01-10.22:11:05::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2023-01-10.22:11:05::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-01-10.22:11:05::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-01-10.22:11:05::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-01-10.22:11:05::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2023-01-10.22:11:05::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-01-10.22:11:05::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-01-10.22:11:05::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-01-10.22:11:05::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2023-01-10.22:11:05::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-01-10.22:11:05::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-01-10.22:11:05::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-01-10.22:11:05::SCWMssOS::"Running Make libs in microblaze_0/libsrc/iic_v3_9/src"
+
+TRACE::2023-01-10.22:11:05::SCWMssOS::make -C microblaze_0/libsrc/iic_v3_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_FL
+TRACE::2023-01-10.22:11:05::SCWMssOS::AGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wex
+TRACE::2023-01-10.22:11:05::SCWMssOS::tra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-01-10.22:11:05::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_15/src"
+
+TRACE::2023-01-10.22:11:05::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2023-01-10.22:11:05::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -W
+TRACE::2023-01-10.22:11:05::SCWMssOS::extra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-01-10.22:11:05::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2023-01-10.22:11:05::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2023-01-10.22:11:05::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2023-01-10.22:11:05::SCWMssOS::ll -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-01-10.22:11:05::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2023-01-10.22:11:05::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2023-01-10.22:11:05::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2023-01-10.22:11:05::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-01-10.22:11:06::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2023-01-10.22:11:06::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2023-01-10.22:11:06::SCWMssOS::make --no-print-directory archive
+
+TRACE::2023-01-10.22:11:06::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/_exit.o microblaze_0/lib/errno.o microblaze_0/lib/fcntl.o microblaze_0/lib
+TRACE::2023-01-10.22:11:06::SCWMssOS::/hw_exception_handler.o microblaze_0/lib/inbyte.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_disa
+TRACE::2023-01-10.22:11:06::SCWMssOS::ble_exceptions.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib
+TRACE::2023-01-10.22:11:06::SCWMssOS::/microblaze_enable_dcache.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/microblaze_enable_icache.o microbl
+TRACE::2023-01-10.22:11:06::SCWMssOS::aze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/microblaze_flush_cach
+TRACE::2023-01-10.22:11:06::SCWMssOS::e_ext.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/microbl
+TRACE::2023-01-10.22:11:06::SCWMssOS::aze_flush_dcache_range.o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_init_icache_range.o microb
+TRACE::2023-01-10.22:11:06::SCWMssOS::laze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_invalidate_cac
+TRACE::2023-01-10.22:11:06::SCWMssOS::he_ext.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/
+TRACE::2023-01-10.22:11:06::SCWMssOS::lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/microblaze_invalidate
+TRACE::2023-01-10.22:11:06::SCWMssOS::_icache_range.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_sleep.o 
+TRACE::2023-01-10.22:11:06::SCWMssOS::microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/outbyte.o microblaze_0
+TRACE::2023-01-10.22:11:06::SCWMssOS::/lib/print.o microblaze_0/lib/pvr.o microblaze_0/lib/xbram.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xbram_intr.o microblaz
+TRACE::2023-01-10.22:11:06::SCWMssOS::e_0/lib/xbram_selftest.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/xgpio.o microblaze_0/lib/xgpio_extra.o microblaze_0/li
+TRACE::2023-01-10.22:11:06::SCWMssOS::b/xgpio_g.o microblaze_0/lib/xgpio_intr.o microblaze_0/lib/xgpio_selftest.o microblaze_0/lib/xgpio_sinit.o microblaze_0/lib/xii
+TRACE::2023-01-10.22:11:06::SCWMssOS::c.o microblaze_0/lib/xiic_dyn_master.o microblaze_0/lib/xiic_g.o microblaze_0/lib/xiic_intr.o microblaze_0/lib/xiic_l.o microbl
+TRACE::2023-01-10.22:11:06::SCWMssOS::aze_0/lib/xiic_master.o microblaze_0/lib/xiic_multi_master.o microblaze_0/lib/xiic_options.o microblaze_0/lib/xiic_selftest.o m
+TRACE::2023-01-10.22:11:06::SCWMssOS::icroblaze_0/lib/xiic_sinit.o microblaze_0/lib/xiic_slave.o microblaze_0/lib/xiic_stats.o microblaze_0/lib/xil_assert.o microbla
+TRACE::2023-01-10.22:11:06::SCWMssOS::ze_0/lib/xil_cache.o microblaze_0/lib/xil_clocking.o microblaze_0/lib/xil_exception.o microblaze_0/lib/xil_mem.o microblaze_0/l
+TRACE::2023-01-10.22:11:06::SCWMssOS::ib/xil_misc_psreset_api.o microblaze_0/lib/xil_printf.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/xil_testcache.o mic
+TRACE::2023-01-10.22:11:06::SCWMssOS::roblaze_0/lib/xil_testio.o microblaze_0/lib/xil_testmem.o microblaze_0/lib/xil_util.o microblaze_0/lib/xintc.o microblaze_0/lib
+TRACE::2023-01-10.22:11:06::SCWMssOS::/xintc_g.o microblaze_0/lib/xintc_intr.o microblaze_0/lib/xintc_l.o microblaze_0/lib/xintc_options.o microblaze_0/lib/xintc_sel
+TRACE::2023-01-10.22:11:06::SCWMssOS::ftest.o microblaze_0/lib/xinterrupt_wrap.o microblaze_0/lib/xio.o microblaze_0/lib/xplatform_info.o microblaze_0/lib/xuartlite.
+TRACE::2023-01-10.22:11:06::SCWMssOS::o microblaze_0/lib/xuartlite_g.o microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/xuartlite_se
+TRACE::2023-01-10.22:11:06::SCWMssOS::lftest.o microblaze_0/lib/xuartlite_sinit.o microblaze_0/lib/xuartlite_stats.o
+
+TRACE::2023-01-10.22:11:06::SCWMssOS::'Finished building libraries'
+
+TRACE::2023-01-10.22:11:06::SCWMssOS::Copying to export directory.
+TRACE::2023-01-10.22:11:06::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-01-10.22:11:06::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-01-10.22:11:06::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2023-01-10.22:11:06::SCWSystem::Completed Processing the sysconfig VLSI_PROJ_VITIS
+LOG::2023-01-10.22:11:06::SCWPlatform::Completed generating the artifacts for system configuration VLSI_PROJ_VITIS
+TRACE::2023-01-10.22:11:06::SCWPlatform::Started preparing the platform 
+TRACE::2023-01-10.22:11:06::SCWSystem::Writing the bif file for system config VLSI_PROJ_VITIS
+TRACE::2023-01-10.22:11:06::SCWSystem::dir created 
+TRACE::2023-01-10.22:11:06::SCWSystem::Writing the bif 
+TRACE::2023-01-10.22:11:06::SCWPlatform::Started writing the spfm file 
+TRACE::2023-01-10.22:11:06::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-01-10.22:11:06::SCWPlatform::Completed generating the platform
+TRACE::2023-01-10.22:11:06::SCWMssOS::Saving the mss changes C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:11:06::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-01-10.22:11:06::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-01-10.22:11:06::SCWMssOS::Commit changes completed.
+TRACE::2023-01-10.22:11:06::SCWPlatform::Trying to open the hw design at C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:11:06::SCWPlatform::DSA given C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:11:06::SCWPlatform::DSA absoulate path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:11:06::SCWPlatform::DSA directory C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw
+TRACE::2023-01-10.22:11:06::SCWPlatform:: Platform Path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:11:06::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2023-01-10.22:11:06::SCWPlatform::Trying to set the existing hwdb with name HARDWARE_ARCHI_wrapper_1
+TRACE::2023-01-10.22:11:06::SCWPlatform::Opened existing hwdb HARDWARE_ARCHI_wrapper_1
+TRACE::2023-01-10.22:11:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-10.22:11:06::SCWMssOS::Checking the sw design at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:11:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-01-10.22:11:06::SCWMssOS::Sw design exists and opened at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:11:06::SCWWriter::formatted JSON is {
+	"platformName":	"VLSI_PROJ_VITIS",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"VLSI_PROJ_VITIS",
+	"platHandOff":	"C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/HARDWARE_ARCHI_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/HARDWARE_ARCHI_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"VLSI_PROJ_VITIS",
+	"systems":	[{
+			"systemName":	"VLSI_PROJ_VITIS",
+			"systemDesc":	"VLSI_PROJ_VITIS",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"VLSI_PROJ_VITIS",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"3d2d224d06325d09dc4ecdb24f48f1c2",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-01-10.22:11:06::SCWPlatform::updated the xpfm file.
+TRACE::2023-01-10.22:11:07::SCWPlatform::Trying to open the hw design at C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:11:07::SCWPlatform::DSA given C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:11:07::SCWPlatform::DSA absoulate path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:11:07::SCWPlatform::DSA directory C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw
+TRACE::2023-01-10.22:11:07::SCWPlatform:: Platform Path C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/hw/HARDWARE_ARCHI_wrapper.xsa
+TRACE::2023-01-10.22:11:07::SCWPlatform:: Unique name xilinx:nexys-a7-100t::0.0
+TRACE::2023-01-10.22:11:07::SCWPlatform::Trying to set the existing hwdb with name HARDWARE_ARCHI_wrapper_1
+TRACE::2023-01-10.22:11:07::SCWPlatform::Opened existing hwdb HARDWARE_ARCHI_wrapper_1
+TRACE::2023-01-10.22:11:07::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-01-10.22:11:07::SCWMssOS::Checking the sw design at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-01-10.22:11:07::SCWMssOS::DEBUG:  swdes dump  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-01-10.22:11:07::SCWMssOS::Sw design exists and opened at  C:/Users/konev/Desktop/VLSI_PROJ_MB_HW_02/VLSI_PROJ_VITIS/microblaze_0/standalone_domain/bsp/system.mss
